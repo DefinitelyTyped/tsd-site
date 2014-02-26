@@ -1,11 +1,3 @@
-/*
- * grunt-tsd
- * https://github.com/DefinitelyTyped/grunt-tsd
- *
- * Copyright (c) 2013 Bart van der Schoor
- * Licensed under the MIT license.
- */
-
 'use strict';
 
 module.exports = function (grunt) {
@@ -55,6 +47,11 @@ module.exports = function (grunt) {
 		{	expand: true,
 			src: ['*.html', 'js/**/*.js'],
 			cwd: 'assets',
+			dest: 'public/'
+		},
+		{	expand: true,
+			src: ['CNAME'],
+			cwd: '.',
 			dest: 'public/'
 		}
 	].map(function (opts) {

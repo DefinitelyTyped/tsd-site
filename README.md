@@ -1,40 +1,31 @@
-# tsdpm-site
+# tsd-site
 
-[![Build Status](https://secure.travis-ci.org/Bartvds/tsdpm-site.png?branch=master)](http://travis-ci.org/Bartvds/tsdpm-site)
+[![Build Status](https://secure.travis-ci.org/DefinitelyTyped/tsd-site.png?branch=master)](http://travis-ci.org/DefinitelyTyped/tsd-site)
 
 > Source for [www.tsdpm.com](http://www.tsdpm.com/)
 
 :construction: Updating after [tsd](https://github.com/DefinitelyTyped/tsd) `~v0.5.x`
 
-## Usage
-
-Run server:
-
-````shell
-$ node app/server.js
-````
-
-Open in browser:
-
-    http://localhost:5000
+Currently the output of this lives as the `gh-pages` of [tsd](https://github.com/DefinitelyTyped/tsd), on [tsd](http://definitelytyped.github.io/tsd)
 
 ## Build
 
 Make sure you have dependencies:
 
-````shell
+````bash
 $ npm install
+$ bower install
 ````
 
-Rebuild site:
+Rebuild site in `./public/`:
 
-````shell
+````bash
 $ grunt build
-````
+````.
 
-Manually build / update data JSON:
+Manually build / update data JSON (slow, only do this when needed_
 
-````shell
+````bash
 $ grunt update
 ````
 
