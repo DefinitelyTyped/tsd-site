@@ -4,6 +4,7 @@
   "urls": {
     "def": "https://github.com/borisyankov/DefinitelyTyped/blob/master/{path}"
   },
+  "count": 371,
   "content": [
     {
       "project": "accounting",
@@ -101,6 +102,27 @@
       }
     },
     {
+      "project": "angular-protractor",
+      "name": "angular-protractor",
+      "path": "angular-protractor/angular-protractor.d.ts",
+      "info": {
+        "references": [
+          "../selenium-webdriver/selenium-webdriver.d.ts"
+        ],
+        "name": "Angular Protractor 0.17.0",
+        "version": "0.17.0",
+        "description": "",
+        "projectUrl": "https://github.com/angular/protractor",
+        "authors": [
+          {
+            "name": "Bill Armstrong",
+            "url": "https://github.com/BillArmstrong"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "angular-translate",
       "name": "angular-translate",
       "path": "angular-translate/angular-translate.d.ts",
@@ -154,6 +176,49 @@
         "version": "1.1.5",
         "description": "",
         "projectUrl": "https://github.com/angular-ui/ui-router",
+        "authors": [
+          {
+            "name": "Michel Salib",
+            "url": "michelsalib@hotmail.com"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "angularfire",
+      "name": "angularfire",
+      "path": "angularfire/angularfire.d.ts",
+      "info": {
+        "references": [
+          "../angularjs/angular.d.ts",
+          "../firebase/firebase.d.ts"
+        ],
+        "name": "AngularFire 0.6.0",
+        "version": "0.6.0",
+        "description": "",
+        "projectUrl": "http://angularfire.com",
+        "authors": [
+          {
+            "name": "Dénes Harmath",
+            "url": "http://github.com/thSoft"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "angularjs",
+      "name": "angular-animate",
+      "path": "angularjs/angular-animate.d.ts",
+      "info": {
+        "references": [
+          "angular.d.ts"
+        ],
+        "name": "Angular JS 1.2+ (ngAnimate module)",
+        "version": "1.2",
+        "description": "",
+        "projectUrl": "http://angularjs.org",
         "authors": [
           {
             "name": "Michel Salib",
@@ -272,7 +337,9 @@
       "name": "angular-scenario",
       "path": "angularjs/angular-scenario.d.ts",
       "info": {
-        "references": [],
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
         "name": "Angular Scenario Testing",
         "version": "",
         "description": "",
@@ -464,6 +531,25 @@
           {
             "name": "Zoltan Sumegi",
             "url": "https://github.com/sumegizoltan"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "bigscreen",
+      "name": "bigscreen",
+      "path": "bigscreen/bigscreen.d.ts",
+      "info": {
+        "references": [],
+        "name": "BigScreen 2.0.4",
+        "version": "2.0.4",
+        "description": "",
+        "projectUrl": "http://brad.is/coding/BigScreen",
+        "authors": [
+          {
+            "name": "Douglas Eichelberger",
+            "url": "https://github.com/dduugg"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1265,6 +1351,25 @@
       }
     },
     {
+      "project": "dot",
+      "name": "dot",
+      "path": "dot/dot.d.ts",
+      "info": {
+        "references": [],
+        "name": "doT v1.0.1",
+        "version": "1.0.1",
+        "description": "",
+        "projectUrl": "https://github.com/olado/doT",
+        "authors": [
+          {
+            "name": "ZombieHunter",
+            "url": "https://github.com/ZombieHunter"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "dropzone",
       "name": "dropzone",
       "path": "dropzone/dropzone.d.ts",
@@ -1363,6 +1468,25 @@
           {
             "name": "Chris Smith",
             "url": "https://github.com/evilangelist"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "easystarjs",
+      "name": "easystarjs",
+      "path": "easystarjs/easystarjs.d.ts",
+      "info": {
+        "references": [],
+        "name": "EasyStar.js 0.1.6",
+        "version": "0.1.6",
+        "description": "",
+        "projectUrl": "http://easystarjs.com",
+        "authors": [
+          {
+            "name": "Magnus Gustafsson",
+            "url": "https://github.com/borundin"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -2305,6 +2429,27 @@
       }
     },
     {
+      "project": "highland",
+      "name": "highland",
+      "path": "highland/highland.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "Highland 1.14.0",
+        "version": "1.14.0",
+        "description": "",
+        "projectUrl": "http://highlandjs.org",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "highlightjs",
       "name": "highlightjs",
       "path": "highlightjs/highlightjs.d.ts",
@@ -2901,6 +3046,27 @@
       }
     },
     {
+      "project": "jquery.color",
+      "name": "jquery.color",
+      "path": "jquery.color/jquery.color.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jquery.color.js v2.1.2",
+        "version": "2.1.2",
+        "description": "",
+        "projectUrl": "https://github.com/jquery/jquery-color",
+        "authors": [
+          {
+            "name": "Derek Cicerone",
+            "url": "https://github.com/derekcicerone"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "jquery.colorbox",
       "name": "jquery.colorbox",
       "path": "jquery.colorbox/jquery.colorbox.d.ts",
@@ -3002,6 +3168,20 @@
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jquery.cycle2",
+      "name": "jquery.cycle2",
+      "path": "jquery.cycle2/jquery.cycle2.d.ts",
+      "info": {
+        "references": [],
+        "name": "jQuery Cycle2 version 2.1.2 (build 20140216)",
+        "version": "2.1.2",
+        "description": "",
+        "projectUrl": "",
+        "authors": [],
+        "reposUrl": ""
       }
     },
     {
@@ -3279,6 +3459,27 @@
           {
             "name": "Natan Vivo",
             "url": "https://github.com/nvivo"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jquery.simulate",
+      "name": "jquery.simulate",
+      "path": "jquery.simulate/jquery.simulate.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jquery.simulate.js",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/jquery/jquery-simulate",
+        "authors": [
+          {
+            "name": "Derek Cicerone",
+            "url": "https://github.com/derekcicerone"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4396,6 +4597,25 @@
       }
     },
     {
+      "project": "localForage",
+      "name": "localForage",
+      "path": "localForage/localForage.d.ts",
+      "info": {
+        "references": [],
+        "name": "Mozilla's localForage",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/mozilla/localforage",
+        "authors": [
+          {
+            "name": "david pichsenmeister",
+            "url": "https://github.com/3x14159265"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "lodash",
       "name": "lodash",
       "path": "lodash/lodash.d.ts",
@@ -4493,6 +4713,10 @@
           {
             "name": "Natan Vivo",
             "url": "https://github.com/nvivo"
+          },
+          {
+            "name": "Sven Tschui",
+            "url": "https://github.com/sventschui"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4518,6 +4742,25 @@
       }
     },
     {
+      "project": "messenger",
+      "name": "messenger",
+      "path": "messenger/messenger.d.ts",
+      "info": {
+        "references": [],
+        "name": "Messenger.js 1.4.0",
+        "version": "1.4.0",
+        "description": "",
+        "projectUrl": "https://github.com/HubSpot/messenger",
+        "authors": [
+          {
+            "name": "Derek Cicerone",
+            "url": "https://github.com/derekcicerone"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "meteor",
       "name": "meteor",
       "path": "meteor/meteor.d.ts",
@@ -4537,13 +4780,27 @@
       }
     },
     {
+      "project": "microsoft-live-connect",
+      "name": "microsoft-live-connect",
+      "path": "microsoft-live-connect/microsoft-live-connect.d.ts",
+      "info": {
+        "references": [],
+        "name": "",
+        "version": "",
+        "description": "",
+        "projectUrl": "",
+        "authors": [],
+        "reposUrl": ""
+      }
+    },
+    {
       "project": "mocha",
       "name": "mocha",
       "path": "mocha/mocha.d.ts",
       "info": {
         "references": [],
-        "name": "mocha 1.9.0",
-        "version": "1.9.0",
+        "name": "mocha 1.17.1",
+        "version": "1.17.1",
         "description": "",
         "projectUrl": "http://visionmedia.github.io/mocha",
         "authors": [
@@ -5280,6 +5537,28 @@
       }
     },
     {
+      "project": "q-io",
+      "name": "Q-io",
+      "path": "q-io/Q-io.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts",
+          "../q/Q.d.ts"
+        ],
+        "name": "Q-io",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/kriskowal/q-io",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "q",
       "name": "Q",
       "path": "q/Q.d.ts",
@@ -5385,7 +5664,7 @@
         "references": [
           "../angularjs/angular.d.ts"
         ],
-        "name": "Restangular v1.2.2 - 2014-01-10",
+        "name": "Restangular v1.2.2",
         "version": "1.2.2",
         "description": "",
         "projectUrl": "https://github.com/mgonto/restangular",
@@ -5900,6 +6179,44 @@
       }
     },
     {
+      "project": "selenium-webdriver",
+      "name": "selenium-webdriver",
+      "path": "selenium-webdriver/selenium-webdriver.d.ts",
+      "info": {
+        "references": [],
+        "name": "Selenium WebDriverJS 2.39.0",
+        "version": "2.39.0",
+        "description": "",
+        "projectUrl": "https://code.google.com/p/selenium",
+        "authors": [
+          {
+            "name": "Bill Armstrong",
+            "url": "https://github.com/BillArmstrong"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "semver",
+      "name": "semver",
+      "path": "semver/semver.d.ts",
+      "info": {
+        "references": [],
+        "name": "semver v2.2.1",
+        "version": "2.2.1",
+        "description": "",
+        "projectUrl": "https://github.com/isaacs/node-semver",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "sencha_touch",
       "name": "SenchaTouch",
       "path": "sencha_touch/SenchaTouch-2.2.1.d.ts",
@@ -5967,14 +6284,18 @@
       "path": "should/should.d.ts",
       "info": {
         "references": [],
-        "name": "should.js 1.2.2",
-        "version": "1.2.2",
+        "name": "should.js 3.1.2",
+        "version": "3.1.2",
         "description": "",
         "projectUrl": "https://github.com/visionmedia/should.js",
         "authors": [
           {
             "name": "Alex Varju",
             "url": "https://github.com/varju"
+          },
+          {
+            "name": "Maxime LUCE",
+            "url": "https://github.com/SomaticIT"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -6015,6 +6336,9 @@
           {
             "name": "Boris Yankov",
             "url": "https://github.com/borisyankov"
+          },
+          {
+            "name": "Modified by"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -6068,8 +6392,8 @@
       "path": "sinon/sinon.d.ts",
       "info": {
         "references": [],
-        "name": "Sinon 1.5",
-        "version": "1.5",
+        "name": "Sinon 1.8.1",
+        "version": "1.8.1",
         "description": "",
         "projectUrl": "http://sinonjs.org",
         "authors": [
@@ -6137,6 +6461,25 @@
           {
             "name": "Mike H. Hawley",
             "url": "https://github.com/mikehhawley"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "socket.io-client",
+      "name": "socket.io-client",
+      "path": "socket.io-client/socket.io-client.d.ts",
+      "info": {
+        "references": [],
+        "name": "socket.io nodejs client",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://socket.io",
+        "authors": [
+          {
+            "name": "Maido Kaara",
+            "url": "https://github.com/v3rm0n"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -6547,6 +6890,25 @@
       }
     },
     {
+      "project": "tv4",
+      "name": "tv4",
+      "path": "tv4/tv4.d.ts",
+      "info": {
+        "references": [],
+        "name": "Tiny Validator tv4 1.0.6",
+        "version": "1.0.6",
+        "description": "",
+        "projectUrl": "https://github.com/geraintluff/tv4",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "tween.js",
       "name": "tween.js",
       "path": "tween.js/tween.js.d.ts",
@@ -6697,6 +7059,25 @@
       }
     },
     {
+      "project": "universal-analytics",
+      "name": "universal-analytics",
+      "path": "universal-analytics/universal-analytics.d.ts",
+      "info": {
+        "references": [],
+        "name": "universal-analytics v0.3.2",
+        "version": "0.3.2",
+        "description": "",
+        "projectUrl": "https://github.com/peaksandpies/universal-analytics",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "urijs",
       "name": "URI",
       "path": "urijs/URI.d.ts",
@@ -6752,6 +7133,25 @@
           {
             "name": "Howard Richards",
             "url": "https://github.com/conficient"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "vega",
+      "name": "vega",
+      "path": "vega/vega.d.ts",
+      "info": {
+        "references": [],
+        "name": "Vega",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://trifacta.github.io/vega",
+        "authors": [
+          {
+            "name": "Tom Crockett",
+            "url": "http://github.com/pelotom"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -7010,6 +7410,25 @@
           {
             "name": "Paul Loyd",
             "url": "https://github.com/loyd"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "xsockets",
+      "name": "XSockets",
+      "path": "xsockets/XSockets.d.ts",
+      "info": {
+        "references": [],
+        "name": "XSockets.NET 3.0",
+        "version": "3.0",
+        "description": "",
+        "projectUrl": "http://xsockets.net",
+        "authors": [
+          {
+            "name": "Jeffery Grajkowski",
+            "url": "https://github.com/pushplay"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"

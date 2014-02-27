@@ -4,9 +4,7 @@
 
 > Source for [www.tsdpm.com](http://www.tsdpm.com/)
 
-:construction: Updating after [tsd](https://github.com/DefinitelyTyped/tsd) `~v0.5.x`
-
-Currently the output of this lives as the `gh-pages` of [tsd](https://github.com/DefinitelyTyped/tsd), on [tsd](http://definitelytyped.github.io/tsd)
+Currently the output of this lives on [definitelytyped.github.io/tsd](http://definitelytyped.github.io/tsd), as the `gh-pages` of [TSD](https://github.com/DefinitelyTyped/tsd) itself. 
 
 ## Build
 
@@ -21,14 +19,13 @@ Rebuild site in `./public/`:
 
 ````bash
 $ grunt build
-````.
+````
 
-Manually build / update data JSON (slow, only do this when needed_
+Manually build / update data JSON (slow, only do this when needed)
 
 ````bash
 $ grunt update
 ````
-
 
 ## Contributing
 

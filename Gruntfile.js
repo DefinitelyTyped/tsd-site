@@ -45,7 +45,7 @@ module.exports = function (grunt) {
 			dest: 'public/data/'
 		},
 		{	expand: true,
-			src: ['*.html', 'js/**/*.js'],
+			src: ['*.html', '*.md', 'js/**/*.js'],
 			cwd: 'assets',
 			dest: 'public/'
 		},
@@ -64,6 +64,17 @@ module.exports = function (grunt) {
 				options: {
 					config: './conf/tsd-json'
 				}
+			}
+		},
+		'gh-pages': {
+			options: {
+				base: 'public'
+			},
+			tsd: {
+				options: {
+					repo: 'https://github.com/DefinitelyTyped/tsd.git'
+				},
+				src: ['**/*']
 			}
 		}
 	});

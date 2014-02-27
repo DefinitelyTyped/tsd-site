@@ -12,7 +12,11 @@ module.exports = function(grunt) {
 
 		updater.getIndex(options).then(function(index) {
 			grunt.file.write('./data/repository.json', JSON.stringify(index, null, 2));
-			grunt.log.writeln(util.inspect(index, null, 4));
+			grunt.log.writeln(util.inspect(index, null, 5));
+			grunt.log.writeln('');
+			grunt.log.writeln('-> repo: ' + index.repo);
+			grunt.log.writeln('-> ref: ' + index.ref);
+			grunt.log.writeln('-> definitions: ' + index.content.length);
 			done();
 		}).fail(function(err) {
 			grunt.log.writeln(err.message);
