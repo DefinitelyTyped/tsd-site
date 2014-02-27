@@ -88,7 +88,7 @@ module.exports = function (grunt) {
 		'assemble:copy',
 		'less:build'
 	]);
-	gtx.alias('update', ['build_data:deploy']);
+	gtx.alias('update', ['build', 'build_data:deploy', 'gh-pages']);
 
 	gtx.alias('test', ['build']);
 	gtx.alias('default', ['test']);

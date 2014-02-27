@@ -4,7 +4,7 @@
   "urls": {
     "def": "https://github.com/borisyankov/DefinitelyTyped/blob/master/{path}"
   },
-  "count": 371,
+  "count": 372,
   "content": [
     {
       "project": "accounting",
@@ -2243,6 +2243,20 @@
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "googlemaps.infobubble",
+      "name": "google.maps.infobubble",
+      "path": "googlemaps.infobubble/google.maps.infobubble.d.ts",
+      "info": {
+        "references": [],
+        "name": "",
+        "version": "",
+        "description": "",
+        "projectUrl": "",
+        "authors": [],
+        "reposUrl": ""
       }
     },
     {
