@@ -80,7 +80,7 @@ module.exports = function (grunt) {
 	});
 
 	gtx.alias('prep', [
-		'clean',Bartvds
+		'clean',
 		'jshint'
 	]);
 	gtx.alias('build', [
