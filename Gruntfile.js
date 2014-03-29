@@ -15,16 +15,48 @@ module.exports = function (grunt) {
 		},
 		clean: {
 			tmp: ['tmp/**/*', 'test/tmp/**/*'],
-			public: ['public/**/*'],
+			dist: ['dist/**/*'],
 			dump: ['test/**/dump']
 		},
 		less: {
 			build: {
 				options: {},
 				files: {
-					'public/css/build.css': [
-						'assets/css/build.less'
+					'dist/css/build.css': [
+						'src/css/build.less'
 					]
+				}
+			}
+		},
+		browserify: {
+			options: {
+				bundleOptions: {
+					// weird
+					// debug: true
+				}
+			},
+			vue: {
+				options: {
+					require: ['vue']
+				},
+				files: {
+					'dist/js/vue.js': []
+				}
+			},
+			oboe: {
+				options: {
+					require: ['oboe']
+				},
+				files: {
+					'dist/js/oboe.js': []
+				}
+			},
+			index: {
+				options: {
+					external: ['vue', 'oboe']
+				},
+				files: {
+					'dist/js/index.js': ['src/js/index.js']
 				}
 			}
 		}
@@ -32,27 +64,27 @@ module.exports = function (grunt) {
 
 	gtx.alias('assemble:copy', [
 		{	src: 'bower_components/bootstrap/dist/js//bootstrap.min.js',
-			dest: 'public/js/bootstrap.js'
+			dest: 'dist/js/bootstrap.js'
 		},
 		{	expand: true,
 			src: '*.*',
 			cwd: 'bower_components/bootstrap/dist/fonts',
-			dest: 'public/fonts/'
+			dest: 'dist/fonts/'
 		},
 		{	expand: true,
 			src: '*.*',
 			cwd: 'data',
-			dest: 'public/data/'
+			dest: 'dist/data/'
 		},
 		{	expand: true,
 			src: ['*.html', '*.md', 'js/**/*.js'],
-			cwd: 'assets',
-			dest: 'public/'
+			cwd: 'src',
+			dest: 'dist/'
 		},
 		{	expand: true,
 			src: ['CNAME'],
 			cwd: '.',
-			dest: 'public/'
+			dest: 'dist/'
 		}
 	].map(function (opts) {
 		return gtx.configFor('copy', opts);
@@ -68,7 +100,7 @@ module.exports = function (grunt) {
 		},
 		'gh-pages': {
 			options: {
-				base: 'public'
+				base: 'dist'
 			},
 			tsd: {
 				options: {
@@ -86,6 +118,9 @@ module.exports = function (grunt) {
 	gtx.alias('build', [
 		'prep',
 		'assemble:copy',
+		'browserify:vue',
+		'browserify:oboe',
+		'browserify:index',
 		'less:build'
 	]);
 	gtx.alias('update', ['build', 'build_data:deploy', 'gh-pages']);
@@ -93,7 +128,7 @@ module.exports = function (grunt) {
 	gtx.alias('test', ['build']);
 	gtx.alias('default', ['test']);
 
-	gtx.alias('dev', ['build', 'build_data:deploy']);
+	gtx.alias('dev', ['browserify:index']);
 
 	gtx.finalise();
 };

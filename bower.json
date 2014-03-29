@@ -1,6 +1,6 @@
 {
   "name": "tsdpm-site",
-  "homepage": "https://github.com/Diullei/tsdpm-site",
+  "homepage": "http://definitelytyped.github.io/tsd",
   "keywords": [
     "tsd"
   ],
@@ -8,6 +8,6 @@
   "private": true,
   "directory": "public/bower_components",
   "dependencies": {
-    "bootstrap": "~3.0.3"
+    "bootstrap": "~3.1.1"
   }
 }

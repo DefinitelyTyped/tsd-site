@@ -6,5 +6,6 @@ tmp
 /.idea
 /tsd-cache
 /public
+/dist
 /*.tgz
 /.grunt
