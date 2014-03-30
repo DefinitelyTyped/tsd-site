@@ -128,6 +128,7 @@ module.exports = function (grunt) {
 	gtx.alias('test', ['build']);
 	gtx.alias('default', ['test']);
 
+	gtx.alias('run', ['build_data:deploy']);
 	gtx.alias('dev', ['browserify:index']);
 
 	gtx.finalise();
