@@ -1,6 +1,10 @@
-var oboe = require('oboe');
 var Vue = require('vue');
 var lib = require('./lib');
+
+//grab global (hacky skip browserifing node version)
+if (!window.oboe) {
+	throw new Error('expected oboe global object');
+}
 
 function escapeRegExp(str) {
 	return String(str).replace(/([.*+?^=!:${}()|\[\]\/\\])/g, '\\$1');
@@ -114,7 +118,7 @@ function getDefURL(path) {
 }
 
 function loadData(data, url, done) {
-	console.log('loadData %s', url);
+	// console.log('loadData %s', url);
 
 	oboe(url)
 	.node('!repo', function (value) {
@@ -156,6 +160,4 @@ loadData(table.$data, lib.absoluteURI('data/repository.json'), function(err, dat
 	if (err) {
 		throw err;
 	}
-	console.log('done!');
-	console.log(data.all.length);
 });

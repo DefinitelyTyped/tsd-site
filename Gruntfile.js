@@ -43,14 +43,6 @@ module.exports = function (grunt) {
 					'dist/js/vue.js': []
 				}
 			},
-			oboe: {
-				options: {
-					require: ['oboe']
-				},
-				files: {
-					'dist/js/oboe.js': []
-				}
-			},
 			index: {
 				options: {
 					external: ['vue', 'oboe']
@@ -63,32 +55,42 @@ module.exports = function (grunt) {
 	});
 
 	gtx.alias('assemble:copy', [
-		{	src: 'bower_components/bootstrap/dist/js//bootstrap.min.js',
+		{
+			src: 'node_modules/oboe/dist/oboe-browser.min.js',
+			dest: 'dist/js/oboe.js'
+		},
+		{
+			src: 'bower_components/bootstrap/dist/js//bootstrap.min.js',
 			dest: 'dist/js/bootstrap.js'
 		},
-		{	expand: true,
+		{
+			expand: true,
 			src: '*.*',
 			cwd: 'bower_components/bootstrap/dist/fonts',
 			dest: 'dist/fonts/'
 		},
-		{	expand: true,
+		{
+			expand: true,
 			src: '*.*',
 			cwd: 'data',
 			dest: 'dist/data/'
 		},
-		{	expand: true,
+		{
+			expand: true,
 			src: ['*.html', '*.md', 'js/**/*.js'],
 			cwd: 'src',
 			dest: 'dist/'
 		},
-		{	expand: true,
+		{
+			expand: true,
 			src: ['CNAME'],
 			cwd: '.',
 			dest: 'dist/'
 		}
 	].map(function (opts) {
-		return gtx.configFor('copy', opts);
-	}));
+			return gtx.configFor('copy', opts);
+		}));
+
 
 	gtx.config({
 		build_data: {
@@ -96,6 +98,13 @@ module.exports = function (grunt) {
 				options: {
 					config: './conf/tsd-json'
 				}
+			}
+		},
+		copy: {
+			data: {    expand: true,
+				src: '*.*',
+				cwd: 'data',
+				dest: 'dist/data/'
 			}
 		},
 		'gh-pages': {
@@ -119,11 +128,10 @@ module.exports = function (grunt) {
 		'prep',
 		'assemble:copy',
 		'browserify:vue',
-		'browserify:oboe',
 		'browserify:index',
 		'less:build'
 	]);
-	gtx.alias('update', ['build', 'build_data:deploy', 'gh-pages']);
+	gtx.alias('update', ['build', 'build_data:deploy', 'copy:data', 'gh-pages']);
 
 	gtx.alias('test', ['build']);
 	gtx.alias('default', ['test']);
