@@ -34,24 +34,26 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "connect": "~2.11.2",
-    "st": "^0.4.1"
+    "vue": "^0.10.4",
+    "oboe": "^1.14.6"
   },
   "devDependencies": {
-    "tsd": "~0.5.6",
-    "grunt": "~0.4.2",
+    "connect": "^2.11.2",
+    "st": "^0.4.1",
+    "tsd": "^0.5.7",
+    "grunt": "^0.4.5",
     "grunt-cli": "~0.1",
     "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.7.2",
-    "grunt-contrib-less": "~0.9.0",
+    "grunt-contrib-jshint": "^0.7.2",
+    "grunt-contrib-less": "^0.9.0",
     "jshint-path-reporter": "0.1",
-    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-copy": "^0.4.1",
     "gruntfile-gtx": "~0.2.2",
     "grunt-gh-pages": "~0.9.1",
-    "mkdirp": "~0.3.5",
-    "grunt-ts": "^1.9.3",
-    "browserify": "^3.37.1",
-    "grunt-browserify": "^2.0.1",
+    "mkdirp": "^0.3.5",
+    "grunt-ts": "^1.11.2",
+    "browserify": "^3.46.1",
+    "grunt-browserify": "^2.1.0",
     "vue": "^0.10.3",
     "oboe": "^1.14.3"
   },
