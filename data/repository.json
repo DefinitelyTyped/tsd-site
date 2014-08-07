@@ -4,9 +4,49 @@
   "urls": {
     "def": "https://github.com/borisyankov/DefinitelyTyped/blob/master/{path}"
   },
-  "updatedAt": 1397962059812,
-  "count": 431,
+  "updatedAt": 1407437903192,
+  "count": 638,
   "content": [
+    {
+      "project": "Finch",
+      "name": "Finch",
+      "path": "Finch/Finch.d.ts",
+      "info": {
+        "references": [],
+        "name": "Finch 0.5.13",
+        "version": "0.5.13",
+        "description": "",
+        "projectUrl": "https://github.com/stoodder/finchjs",
+        "authors": [
+          {
+            "name": "David Sichau",
+            "url": "https://github.com/DavidSichau"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "JSONStream",
+      "name": "JSONStream",
+      "path": "JSONStream/JSONStream.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "JSONStream v0.8.0",
+        "version": "0.8.0",
+        "description": "",
+        "projectUrl": "http://github.com/dominictarr/JSONStream",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
     {
       "project": "accounting",
       "name": "accounting",
@@ -65,6 +105,25 @@
       }
     },
     {
+      "project": "alertify",
+      "name": "alertify",
+      "path": "alertify/alertify.d.ts",
+      "info": {
+        "references": [],
+        "name": "alertify 0.3.11",
+        "version": "0.3.11",
+        "description": "",
+        "projectUrl": "http://fabien-d.github.io/alertify.js",
+        "authors": [
+          {
+            "name": "John Jeffery",
+            "url": "http://github.com/jjeffery"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "amcharts",
       "name": "AmCharts",
       "path": "amcharts/AmCharts.d.ts",
@@ -88,7 +147,9 @@
       "name": "amplifyjs",
       "path": "amplifyjs/amplifyjs.d.ts",
       "info": {
-        "references": [],
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
         "name": "AmplifyJs 1.1.0",
         "version": "1.1.0",
         "description": "",
@@ -103,6 +164,67 @@
       }
     },
     {
+      "project": "angular-agility",
+      "name": "angular-agility",
+      "path": "angular-agility/angular-agility.d.ts",
+      "info": {
+        "references": [
+          "../angularjs/angular.d.ts"
+        ],
+        "name": "AngularAgility",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/AngularAgility/AngularAgility",
+        "authors": [
+          {
+            "name": "Roland Zwaga",
+            "url": "https://github.com/rolandzwaga"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "angular-bootstrap-lightbox",
+      "name": "angular-bootstrap-lightbox",
+      "path": "angular-bootstrap-lightbox/angular-bootstrap-lightbox.d.ts",
+      "info": {
+        "references": [],
+        "name": "angular-bootstrap-lightbox",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/compact/angular-bootstrap-lightbox",
+        "authors": [
+          {
+            "name": "Roland Zwaga",
+            "url": "https://github.com/rolandzwaga"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "angular-hotkeys",
+      "name": "angular-hotkeys",
+      "path": "angular-hotkeys/angular-hotkeys.d.ts",
+      "info": {
+        "references": [
+          "../angularjs/angular.d.ts"
+        ],
+        "name": "angular-hotkeys",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/chieffancypants/angular-hotkeys",
+        "authors": [
+          {
+            "name": "Jason Zhao",
+            "url": "https://github.com/jlz27"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "angular-protractor",
       "name": "angular-protractor",
       "path": "angular-protractor/angular-protractor.d.ts",
@@ -110,8 +232,8 @@
         "references": [
           "../selenium-webdriver/selenium-webdriver.d.ts"
         ],
-        "name": "Angular Protractor 0.17.0",
-        "version": "0.17.0",
+        "name": "Angular Protractor 1.0.0-rc4",
+        "version": "1.0.0-rc4",
         "description": "",
         "projectUrl": "https://github.com/angular/protractor",
         "authors": [
@@ -138,7 +260,7 @@
         "authors": [
           {
             "name": "Michel Salib",
-            "url": "michelsalib@hotmail.com"
+            "url": "https://github.com/michelsalib"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -180,7 +302,28 @@
         "authors": [
           {
             "name": "Michel Salib",
-            "url": "michelsalib@hotmail.com"
+            "url": "https://github.com/michelsalib"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "angularLocalStorage",
+      "name": "angularLocalStorage",
+      "path": "angularLocalStorage/angularLocalStorage.d.ts",
+      "info": {
+        "references": [
+          "../angularjs/angular.d.ts"
+        ],
+        "name": "AngularLocalStorage 0.1.7",
+        "version": "0.1.7",
+        "description": "",
+        "projectUrl": "https://github.com/agrublev/angularLocalStorage",
+        "authors": [
+          {
+            "name": "Horiuchi_H",
+            "url": "https://github.com/horiuchi"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -223,7 +366,7 @@
         "authors": [
           {
             "name": "Michel Salib",
-            "url": "michelsalib@hotmail.com"
+            "url": "https://github.com/michelsalib"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -287,6 +430,10 @@
           {
             "name": "Diego Vilar",
             "url": "http://github.com/diegovilar"
+          },
+          {
+            "name": "Michael Jess",
+            "url": "http://github.com/miffels"
           }
         ],
         "reposUrl": "https://github.com/daptiv/DefinitelyTyped"
@@ -306,7 +453,8 @@
         "projectUrl": "http://angularjs.org",
         "authors": [
           {
-            "name": "Jonathan Park"
+            "name": "Jonathan Park",
+            "url": "https://github.com/park9140"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -347,7 +495,8 @@
         "projectUrl": "http://angularjs.org",
         "authors": [
           {
-            "name": "RomanoLindano"
+            "name": "RomanoLindano",
+            "url": "https://github.com/RomanoLindano"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -369,6 +518,25 @@
           {
             "name": "Diego Vilar",
             "url": "http://github.com/diegovilar"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "ansicolors",
+      "name": "ansicolors",
+      "path": "ansicolors/ansicolors.d.ts",
+      "info": {
+        "references": [],
+        "name": "ansicolors",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/thlorenz/ansicolors",
+        "authors": [
+          {
+            "name": "rogierschouten",
+            "url": "https://github.com/rogierschouten"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -426,7 +594,8 @@
         "projectUrl": "https://www.npmjs.org/package/asciify",
         "authors": [
           {
-            "name": "Alan Norbauer http"
+            "name": "Alan Norbauer",
+            "url": "http://alan.norbauer.com"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -485,14 +654,37 @@
       }
     },
     {
+      "project": "atmosphere",
+      "name": "atmosphere",
+      "path": "atmosphere/atmosphere.d.ts",
+      "info": {
+        "references": [],
+        "name": "Atmosphere v2.1.5",
+        "version": "2.1.5",
+        "description": "",
+        "projectUrl": "https://github.com/Atmosphere/atmosphere-javascript",
+        "authors": [
+          {
+            "name": "Kai Toedter",
+            "url": "https://github.com/toedter"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "atom",
       "name": "atom",
       "path": "atom/atom.d.ts",
       "info": {
         "references": [
           "../q/Q.d.ts",
+          "../jquery/jquery.d.ts",
           "../space-pen/space-pen.d.ts",
-          "../emissary/emissary.d.ts"
+          "../emissary/emissary.d.ts",
+          "../pathwatcher/pathwatcher.d.ts",
+          "../text-buffer/text-buffer.d.ts",
+          "../status-bar/status-bar.d.ts"
         ],
         "name": "Atom",
         "version": "",
@@ -502,6 +694,84 @@
           {
             "name": "vvakame",
             "url": "https://github.com/vvakame"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "atpl",
+      "name": "atpl",
+      "path": "atpl/atpl.d.ts",
+      "info": {
+        "references": [],
+        "name": "atpl",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/soywiz/atpl.js",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "auth0.widget",
+      "name": "auth0.widget",
+      "path": "auth0.widget/auth0.widget.d.ts",
+      "info": {
+        "references": [
+          "../auth0/auth0.d.ts"
+        ],
+        "name": "Auth0Widget.js",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://auth0.com",
+        "authors": [
+          {
+            "name": "Robert McLaws",
+            "url": "https://github.com/advancedrei"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "auth0",
+      "name": "auth0",
+      "path": "auth0/auth0.d.ts",
+      "info": {
+        "references": [],
+        "name": "Auth0.js",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://auth0.com",
+        "authors": [
+          {
+            "name": "Robert McLaws",
+            "url": "https://github.com/advancedrei"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "aws-sdk",
+      "name": "aws-sdk",
+      "path": "aws-sdk/aws-sdk.d.ts",
+      "info": {
+        "references": [],
+        "name": "aws-sdk",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/aws/aws-sdk-js",
+        "authors": [
+          {
+            "name": "midknight41",
+            "url": "https://github.com/midknight41"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -554,7 +824,8 @@
       "path": "backbone/backbone.d.ts",
       "info": {
         "references": [
-          "../jquery/jquery.d.ts"
+          "../jquery/jquery.d.ts",
+          "../underscore/underscore.d.ts"
         ],
         "name": "Backbone 1.0.0",
         "version": "1.0.0",
@@ -614,6 +885,63 @@
       }
     },
     {
+      "project": "big-integer",
+      "name": "big-integer",
+      "path": "big-integer/big-integer.d.ts",
+      "info": {
+        "references": [],
+        "name": "BigInteger.js",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/peterolson/BigInteger.js",
+        "authors": [
+          {
+            "name": "Ingo Bürk",
+            "url": "https://github.com/Airblader"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "big.js",
+      "name": "big.js",
+      "path": "big.js/big.js.d.ts",
+      "info": {
+        "references": [],
+        "name": "big.js",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/MikeMcl/big.js",
+        "authors": [
+          {
+            "name": "Steve Ognibene",
+            "url": "https://github.com/nycdotnet"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "bigint",
+      "name": "bigint",
+      "path": "bigint/bigint.d.ts",
+      "info": {
+        "references": [],
+        "name": "BigInt v5.5.1",
+        "version": "5.5.1",
+        "description": "",
+        "projectUrl": "https://github.com/Evgenus/BigInt",
+        "authors": [
+          {
+            "name": "Eugene Chernyshov",
+            "url": "https://github.com/Evgenus"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "bigscreen",
       "name": "bigscreen",
       "path": "bigscreen/bigscreen.d.ts",
@@ -633,6 +961,27 @@
       }
     },
     {
+      "project": "bl",
+      "name": "bl",
+      "path": "bl/bl.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "BufferList v0.8.0",
+        "version": "0.8.0",
+        "description": "",
+        "projectUrl": "https://github.com/rvagg/bl",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "bluebird",
       "name": "bluebird",
       "path": "bluebird/bluebird.d.ts",
@@ -646,6 +995,31 @@
           {
             "name": "Bart van der Schoor",
             "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "body-parser",
+      "name": "body-parser",
+      "path": "body-parser/body-parser.d.ts",
+      "info": {
+        "references": [
+          "../express/express.d.ts"
+        ],
+        "name": "body-parser",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://expressjs.com",
+        "authors": [
+          {
+            "name": "Santi Albo",
+            "url": "https://github.com/santialbo"
+          },
+          {
+            "name": "VILIC VANE",
+            "url": "https://vilic.info"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -749,6 +1123,25 @@
           {
             "name": "derikwhittaker",
             "url": "https://github.com/derikwhittaker"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "bootstrap.v3.datetimepicker",
+      "name": "bootstrap.v3.datetimepicker",
+      "path": "bootstrap.v3.datetimepicker/bootstrap.v3.datetimepicker.d.ts",
+      "info": {
+        "references": [],
+        "name": "Bootstrap datetimepicker v3",
+        "version": "3",
+        "description": "",
+        "projectUrl": "http://eonasdan.github.io/bootstrap-datetimepicker",
+        "authors": [
+          {
+            "name": "Jesica N. Fera",
+            "url": "https://github.com/bayitajesi"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -860,6 +1253,25 @@
       }
     },
     {
+      "project": "bucks",
+      "name": "bucks",
+      "path": "bucks/bucks.d.ts",
+      "info": {
+        "references": [],
+        "name": "bucks.js 0.8.3",
+        "version": "0.8.3",
+        "description": "",
+        "projectUrl": "https://github.com/CyberAgent/bucks.js",
+        "authors": [
+          {
+            "name": "Shunsuke Ohtani",
+            "url": "https://github.com/zaneli"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "buffer-equal",
       "name": "buffer-equal",
       "path": "buffer-equal/buffer-equal.d.ts",
@@ -870,7 +1282,28 @@
         "name": "buffer-equal 1.0 0",
         "version": "1.0",
         "description": "",
-        "projectUrl": "https://github.com/chaijs/assertion-error",
+        "projectUrl": "https://github.com/substack/node-buffer-equal",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "bufferstream",
+      "name": "bufferstream",
+      "path": "bufferstream/bufferstream.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "bufferstream v0.6.2",
+        "version": "0.6.2",
+        "description": "",
+        "projectUrl": "https://github.com/dodo/node-bufferstream",
         "authors": [
           {
             "name": "Bart van der Schoor",
@@ -921,12 +1354,33 @@
       }
     },
     {
-      "project": "chai-fuzzy",
-      "name": "chai-fuzzy-assert",
-      "path": "chai-fuzzy/chai-fuzzy-assert.d.ts",
+      "project": "chai-datetime",
+      "name": "chai-datetime",
+      "path": "chai-datetime/chai-datetime.d.ts",
       "info": {
         "references": [
-          "../chai/chai-assert.d.ts"
+          "../chai/chai.d.ts"
+        ],
+        "name": "chai-datetime",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/gaslight/chai-datetime.git",
+        "authors": [
+          {
+            "name": "Cliff Burger",
+            "url": "https://github.com/cliffburger"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "chai-fuzzy",
+      "name": "chai-fuzzy",
+      "path": "chai-fuzzy/chai-fuzzy.d.ts",
+      "info": {
+        "references": [
+          "../chai/chai.d.ts"
         ],
         "name": "chai-fuzzy 1.3.0 assert style",
         "version": "1.3.0",
@@ -964,25 +1418,6 @@
     },
     {
       "project": "chai",
-      "name": "chai-assert",
-      "path": "chai/chai-assert.d.ts",
-      "info": {
-        "references": [],
-        "name": "chai v1.7.0 assert style",
-        "version": "1.7.0",
-        "description": "",
-        "projectUrl": "http://chaijs.com",
-        "authors": [
-          {
-            "name": "Bart van der Schoor",
-            "url": "https://github.com/Bartvds"
-          }
-        ],
-        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
-      }
-    },
-    {
-      "project": "chai",
       "name": "chai",
       "path": "chai/chai.d.ts",
       "info": {
@@ -995,6 +1430,33 @@
           {
             "name": "Jed Hunsaker",
             "url": "https://github.com/jedhunsaker"
+          },
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "chalk",
+      "name": "chalk",
+      "path": "chalk/chalk.d.ts",
+      "info": {
+        "references": [],
+        "name": "chalk v0.4.0",
+        "version": "0.4.0",
+        "description": "",
+        "projectUrl": "https://github.com/sindresorhus/chalk",
+        "authors": [
+          {
+            "name": "Diullei Gomes",
+            "url": "https://github.com/Diullei"
+          },
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1027,14 +1489,18 @@
       "path": "cheerio/cheerio.d.ts",
       "info": {
         "references": [],
-        "name": "Cheerio",
-        "version": "",
+        "name": "Cheerio v0.17.0",
+        "version": "0.17.0",
         "description": "",
-        "projectUrl": "https://github.com/MatthewMueller/cheerio",
+        "projectUrl": "https://github.com/cheeriojs/cheerio",
         "authors": [
           {
             "name": "Bret Little",
             "url": "https://github.com/blittle"
+          },
+          {
+            "name": "VILIC VANE",
+            "url": "http://vilic.info"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1067,7 +1533,7 @@
       "path": "chrome/chrome-app.d.ts",
       "info": {
         "references": [],
-        "name": "Chrome packaged application development.",
+        "name": "Chrome packaged application development",
         "version": "",
         "description": "",
         "projectUrl": "http://developer.chrome.com/apps",
@@ -1075,6 +1541,10 @@
           {
             "name": "Adam Lay",
             "url": "https://github.com/AdamLay"
+          },
+          {
+            "name": "MIZUNE Pine",
+            "url": "https://github.com/pine613"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1086,7 +1556,7 @@
       "path": "chrome/chrome.d.ts",
       "info": {
         "references": [],
-        "name": "Chrome extension development.",
+        "name": "Chrome extension development",
         "version": "",
         "description": "",
         "projectUrl": "http://developer.chrome.com/extensions",
@@ -1218,6 +1688,27 @@
       }
     },
     {
+      "project": "compression",
+      "name": "compression",
+      "path": "compression/compression.d.ts",
+      "info": {
+        "references": [
+          "../express/express.d.ts"
+        ],
+        "name": "compression",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/expressjs/compression",
+        "authors": [
+          {
+            "name": "Santi Albo",
+            "url": "https://github.com/santialbo"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "configstore",
       "name": "configstore",
       "path": "configstore/configstore.d.ts",
@@ -1231,6 +1722,25 @@
           {
             "name": "Bart van der Schoor",
             "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "consolidate",
+      "name": "consolidate",
+      "path": "consolidate/consolidate.d.ts",
+      "info": {
+        "references": [],
+        "name": "consolidate",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/visionmedia/consolidate.js",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1256,22 +1766,80 @@
       }
     },
     {
+      "project": "cookie-parser",
+      "name": "cookie-parser",
+      "path": "cookie-parser/cookie-parser.d.ts",
+      "info": {
+        "references": [
+          "../express/express.d.ts"
+        ],
+        "name": "cookie-parser",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/expressjs/cookie-parser",
+        "authors": [
+          {
+            "name": "Santi Albo",
+            "url": "https://github.com/santialbo"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "cordova-ionic",
+      "name": "cordova-ionic",
+      "path": "cordova-ionic/cordova-ionic.d.ts",
+      "info": {
+        "references": [
+          "./plugins/keyboard.d.ts"
+        ],
+        "name": "Ionic Cordova plugins",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/driftyco",
+        "authors": [
+          {
+            "name": "Hendrik Maus",
+            "url": "https://github.com/hendrikmaus"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "cordova",
       "name": "cordova",
       "path": "cordova/cordova.d.ts",
       "info": {
         "references": [],
-        "name": "Apache Cordova.",
+        "name": "Apache Cordova",
         "version": "",
         "description": "",
         "projectUrl": "http://cordova.apache.org",
         "authors": [
           {
-            "name": "Microsoft Open Technologies"
-          },
-          {
-            "name": "Inc.",
+            "name": "Microsoft Open Technologies Inc.",
             "url": "http://msopentech.com"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "cordovarduino",
+      "name": "cordovarduino",
+      "path": "cordovarduino/cordovarduino.d.ts",
+      "info": {
+        "references": [],
+        "name": "Cordovarduino plugin",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/stereolux/cordovarduino",
+        "authors": [
+          {
+            "name": "Hendrik Maus",
+            "url": "https://github.com/hendrikmaus"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1304,10 +1872,10 @@
       "path": "createjs-lib/createjs-lib.d.ts",
       "info": {
         "references": [],
-        "name": "EaselJS 0.7.1, TweenJS 0.5.1, SoundJS 0.5.2, PreloadJS 0.4.1",
-        "version": "0.7.1",
+        "name": "CreateJS",
+        "version": "",
         "description": "",
-        "projectUrl": "http://www.createjs.com/#!/EaselJS",
+        "projectUrl": "http://www.createjs.com",
         "authors": [
           {
             "name": "Pedro Ferreira",
@@ -1327,10 +1895,10 @@
       "path": "createjs/createjs.d.ts",
       "info": {
         "references": [],
-        "name": "EaselJS 0.7.1, TweenJS 0.5.1, SoundJS 0.5.2, PreloadJS 0.4.1",
-        "version": "0.7.1",
+        "name": "CreateJS",
+        "version": "",
         "description": "",
-        "projectUrl": "http://www.createjs.com/#!/EaselJS",
+        "projectUrl": "http://www.createjs.com",
         "authors": [
           {
             "name": "Pedro Ferreira",
@@ -1423,6 +1991,25 @@
       }
     },
     {
+      "project": "date.format.js",
+      "name": "date.format",
+      "path": "date.format.js/date.format.d.ts",
+      "info": {
+        "references": [],
+        "name": "Date Format 1.2.3",
+        "version": "1.2.3",
+        "description": "",
+        "projectUrl": "http://blog.stevenlevithan.com/archives/date-time-format",
+        "authors": [
+          {
+            "name": "Rob Stutton",
+            "url": "https://github.com/balrob"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "datejs",
       "name": "datejs",
       "path": "datejs/datejs.d.ts",
@@ -1472,7 +2059,27 @@
         "projectUrl": "https://github.com/dc-js",
         "authors": [
           {
-            "name": "hans windhoff"
+            "name": "hans windhoff",
+            "url": "https://github.com/hansrwindhoff"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "deep-freeze",
+      "name": "deep-freeze",
+      "path": "deep-freeze/deep-freeze.d.ts",
+      "info": {
+        "references": [],
+        "name": "deep-freeze",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/substack/deep-freeze",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1588,6 +2195,1314 @@
       }
     },
     {
+      "project": "dojo",
+      "name": "dijit",
+      "path": "dojo/dijit.d.ts",
+      "info": {
+        "references": [
+          "./dojo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "doh",
+      "path": "dojo/doh.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojo",
+      "path": "dojo/dojo.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.NodeList",
+      "path": "dojo/dojox.NodeList.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.analytics",
+      "path": "dojo/dojox.analytics.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.app",
+      "path": "dojo/dojox.app.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts",
+          "dojox.mobile.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.atom",
+      "path": "dojo/dojox.atom.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.av",
+      "path": "dojo/dojox.av.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.calc",
+      "path": "dojo/dojox.calc.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts",
+          "dojox.charting.d.ts",
+          "dojox.geo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.calendar",
+      "path": "dojo/dojox.calendar.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts",
+          "dijit.d.ts",
+          "dojox.widget.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.charting",
+      "path": "dojo/dojox.charting.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts",
+          "dojox.gfx.d.ts",
+          "dojox.geo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.collections",
+      "path": "dojo/dojox.collections.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.color",
+      "path": "dojo/dojox.color.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.css3",
+      "path": "dojo/dojox.css3.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.data",
+      "path": "dojo/dojox.data.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.date",
+      "path": "dojo/dojox.date.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.dgauges",
+      "path": "dojo/dojox.dgauges.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts",
+          "dojox.gfx.d.ts",
+          "dojox.geo.d.ts",
+          "dojox.widget.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.dnd",
+      "path": "dojo/dojox.dnd.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.drawing",
+      "path": "dojo/dojox.drawing.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.dtl",
+      "path": "dojo/dojox.dtl.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts",
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.editor",
+      "path": "dojo/dojox.editor.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.embed",
+      "path": "dojo/dojox.embed.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.encoding",
+      "path": "dojo/dojox.encoding.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.flash",
+      "path": "dojo/dojox.flash.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.form",
+      "path": "dojo/dojox.form.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.fx",
+      "path": "dojo/dojox.fx.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.gantt",
+      "path": "dojo/dojox.gantt.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.gauges",
+      "path": "dojo/dojox.gauges.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts",
+          "dojox.gfx.d.ts",
+          "dojox.geo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.geo",
+      "path": "dojo/dojox.geo.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts",
+          "dijit.d.ts",
+          "dojox.gfx.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.gesture",
+      "path": "dojo/dojox.gesture.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.gfx",
+      "path": "dojo/dojox.gfx.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts",
+          "dojox.geo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.gfx3d",
+      "path": "dojo/dojox.gfx3d.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts",
+          "dojox.gfx.d.ts",
+          "dojox.geo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.grid",
+      "path": "dojo/dojox.grid.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.help",
+      "path": "dojo/dojox.help.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.highlight",
+      "path": "dojo/dojox.highlight.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.html",
+      "path": "dojo/dojox.html.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.image",
+      "path": "dojo/dojox.image.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.io",
+      "path": "dojo/dojox.io.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.jq",
+      "path": "dojo/dojox.jq.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.json",
+      "path": "dojo/dojox.json.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.jsonPath",
+      "path": "dojo/dojox.jsonPath.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.lang",
+      "path": "dojo/dojox.lang.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.layout",
+      "path": "dojo/dojox.layout.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts",
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.main",
+      "path": "dojo/dojox.main.d.ts",
+      "info": {
+        "references": [
+          "dojox.gfx.d.ts",
+          "dojox.date.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.math",
+      "path": "dojo/dojox.math.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.mdnd",
+      "path": "dojo/dojox.mdnd.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.mobile",
+      "path": "dojo/dojox.mobile.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts",
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.mvc",
+      "path": "dojo/dojox.mvc.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.rails",
+      "path": "dojo/dojox.rails.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.robot",
+      "path": "dojo/dojox.robot.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.rpc",
+      "path": "dojo/dojox.rpc.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.secure",
+      "path": "dojo/dojox.secure.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.sketch",
+      "path": "dojo/dojox.sketch.d.ts",
+      "info": {
+        "references": [
+          "dojo.d.ts",
+          "dijit.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.socket",
+      "path": "dojo/dojox.socket.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.sql",
+      "path": "dojo/dojox.sql.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.storage",
+      "path": "dojo/dojox.storage.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.string",
+      "path": "dojo/dojox.string.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.testing",
+      "path": "dojo/dojox.testing.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.timing",
+      "path": "dojo/dojox.timing.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.treemap",
+      "path": "dojo/dojox.treemap.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts",
+          "dojox.widget.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.uuid",
+      "path": "dojo/dojox.uuid.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.validate",
+      "path": "dojo/dojox.validate.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.widget",
+      "path": "dojo/dojox.widget.d.ts",
+      "info": {
+        "references": [
+          "dijit.d.ts",
+          "dojox.layout.d.ts"
+        ],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dojo",
+      "name": "dojox.xml",
+      "path": "dojo/dojox.xml.d.ts",
+      "info": {
+        "references": [],
+        "name": "Dojo v1.9",
+        "version": "1.9",
+        "description": "",
+        "projectUrl": "http://dojotoolkit.org",
+        "authors": [
+          {
+            "name": "Michael Van Sickle",
+            "url": "https://github.com/vansimke"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "domo",
       "name": "domo",
       "path": "domo/domo.d.ts",
@@ -1618,7 +3533,8 @@
         "projectUrl": "https://github.com/ded/domready",
         "authors": [
           {
-            "name": "Christian Holm Nielsen"
+            "name": "Christian Holm Nielsen",
+            "url": "https://github.com/dotnetnerd"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1638,6 +3554,25 @@
           {
             "name": "ZombieHunter",
             "url": "https://github.com/ZombieHunter"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "dropboxjs",
+      "name": "dropboxjs",
+      "path": "dropboxjs/dropboxjs.d.ts",
+      "info": {
+        "references": [],
+        "name": "dropbox-js",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/dropbox/dropbox-js",
+        "authors": [
+          {
+            "name": "Steve Fenton",
+            "url": "https://github.com/Steve-Fenton"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1692,14 +3627,14 @@
       "path": "durandal/durandal.d.ts",
       "info": {
         "references": [],
-        "name": "Durandal 2.0.1",
-        "version": "2.0.1",
+        "name": "Durandal 2.1.0",
+        "version": "2.1.0",
         "description": "",
         "projectUrl": "http://durandaljs.com",
         "authors": [
           {
-            "name": "Evan Larsen",
-            "url": "https://github.com/evanlarsen"
+            "name": "Blue Spire",
+            "url": "https://github.com/BlueSpire"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1748,6 +3683,25 @@
       }
     },
     {
+      "project": "easy-table",
+      "name": "easy-table",
+      "path": "easy-table/easy-table.d.ts",
+      "info": {
+        "references": [],
+        "name": "easy-table 0.2.0",
+        "version": "0.2.0",
+        "description": "",
+        "projectUrl": "https://github.com/eldargab/easy-table",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "easystarjs",
       "name": "easystarjs",
       "path": "easystarjs/easystarjs.d.ts",
@@ -1761,6 +3715,25 @@
           {
             "name": "Magnus Gustafsson",
             "url": "https://github.com/borundin"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "elm",
+      "name": "elm",
+      "path": "elm/elm.d.ts",
+      "info": {
+        "references": [],
+        "name": "Elm 0.12",
+        "version": "0.12",
+        "description": "",
+        "projectUrl": "http://elm-lang.org",
+        "authors": [
+          {
+            "name": "Dénes Harmath",
+            "url": "https://github.com/thSoft"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1829,19 +3802,80 @@
       }
     },
     {
-      "project": "es6-promises",
-      "name": "es6-promises",
-      "path": "es6-promises/es6-promises.d.ts",
+      "project": "errorhandler",
+      "name": "errorhandler",
+      "path": "errorhandler/errorhandler.d.ts",
       "info": {
-        "references": [],
-        "name": "es6-promises",
+        "references": [
+          "../express/express.d.ts"
+        ],
+        "name": "errorhandler",
         "version": "",
         "description": "",
-        "projectUrl": "https://github.com/jakearchibald/ES6-Promises",
+        "projectUrl": "https://github.com/expressjs/errorhandler",
+        "authors": [
+          {
+            "name": "Santi Albo",
+            "url": "https://github.com/santialbo"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "es6-promise",
+      "name": "es6-promise",
+      "path": "es6-promise/es6-promise.d.ts",
+      "info": {
+        "references": [],
+        "name": "es6-promise",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/jakearchibald/ES6-Promise",
         "authors": [
           {
             "name": "François de Campredon",
             "url": "https://github.com/fdecampredon"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "es6-promises",
+      "name": "es6-promises",
+      "path": "es6-promises/es6-promises.d.ts",
+      "info": {
+        "references": [
+          "../es6-promise/es6-promise.d.ts"
+        ],
+        "name": "es6-promise",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/jakearchibald/ES6-Promise",
+        "authors": [
+          {
+            "name": "François de Campredon",
+            "url": "https://github.com/fdecampredon"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "esprima",
+      "name": "esprima",
+      "path": "esprima/esprima.d.ts",
+      "info": {
+        "references": [],
+        "name": "Esprima v1.2.0",
+        "version": "1.2.0",
+        "description": "",
+        "projectUrl": "http://esprima.org",
+        "authors": [
+          {
+            "name": "teppeis",
+            "url": "https://github.com/teppeis"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -1929,8 +3963,8 @@
       "path": "express/express.d.ts",
       "info": {
         "references": [],
-        "name": "Express 3.1",
-        "version": "3.1",
+        "name": "Express 4.x",
+        "version": "4",
         "description": "",
         "projectUrl": "http://expressjs.com",
         "authors": [
@@ -2002,6 +4036,44 @@
       }
     },
     {
+      "project": "fbsdk",
+      "name": "fbsdk",
+      "path": "fbsdk/fbsdk.d.ts",
+      "info": {
+        "references": [],
+        "name": "Facebook Javascript SDK",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://developers.facebook.com/docs/javascript",
+        "authors": [
+          {
+            "name": "Joshua Strobl",
+            "url": "https://github.com/JoshStrobl"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "fibers",
+      "name": "fibers",
+      "path": "fibers/fibers.d.ts",
+      "info": {
+        "references": [],
+        "name": "fibers",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/laverdet/node-fibers",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "filesystem",
       "name": "filesystem",
       "path": "filesystem/filesystem.d.ts",
@@ -2036,6 +4108,46 @@
           {
             "name": "Kon",
             "url": "http://phyzkit.net"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "findup-sync",
+      "name": "findup-sync",
+      "path": "findup-sync/findup-sync.d.ts",
+      "info": {
+        "references": [
+          "../minimatch/minimatch.d.ts"
+        ],
+        "name": "findup-sync v0.1.3",
+        "version": "0.1.3",
+        "description": "",
+        "projectUrl": "https://github.com/cowboy/node-findup-sync",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "fingerprintjs",
+      "name": "fingerprint",
+      "path": "fingerprintjs/fingerprint.d.ts",
+      "info": {
+        "references": [],
+        "name": "fingerprintjs 0.5.4",
+        "version": "0.5.4",
+        "description": "",
+        "projectUrl": "https://github.com/Valve/fingerprintjs",
+        "authors": [
+          {
+            "name": "Shunsuke Ohtani",
+            "url": "https://github.com/zaneli"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -2129,14 +4241,37 @@
         "references": [
           "../jquery/jquery.d.ts"
         ],
-        "name": "Flight 1.1.1",
-        "version": "1.1.1",
+        "name": "Flight 1.1.4",
+        "version": "1.1.4",
         "description": "",
         "projectUrl": "http://flightjs.github.com/flight",
         "authors": [
           {
             "name": "Jonathan Hedrén",
             "url": "https://github.com/jonathanhedren"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "flipsnap",
+      "name": "flipsnap",
+      "path": "flipsnap/flipsnap.d.ts",
+      "info": {
+        "references": [],
+        "name": "flipsnap.js",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://pxgrid.github.io/js-flipsnap",
+        "authors": [
+          {
+            "name": "kubosho",
+            "url": "https://github.com/kubosho"
+          },
+          {
+            "name": "gsino",
+            "url": "https://github.com/gsino"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -2158,6 +4293,25 @@
           {
             "name": "Matt Burland",
             "url": "https://github.com/burlandm"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "form-data",
+      "name": "form-data",
+      "path": "form-data/form-data.d.ts",
+      "info": {
+        "references": [],
+        "name": "fibers",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/felixge/node-form-data",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -2204,6 +4358,46 @@
       }
     },
     {
+      "project": "from",
+      "name": "from",
+      "path": "from/from.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "from v0.1.3",
+        "version": "0.1.3",
+        "description": "",
+        "projectUrl": "https://github.com/dominictarr/from",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "fs-extra",
+      "name": "fs-extra",
+      "path": "fs-extra/fs-extra.d.ts",
+      "info": {
+        "references": [],
+        "name": "fs-extra",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/jprichardson/node-fs-extra",
+        "authors": [
+          {
+            "name": "midknight41",
+            "url": "https://github.com/midknight41"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "ftdomdelegate",
       "name": "ftdomdelegate",
       "path": "ftdomdelegate/ftdomdelegate.d.ts",
@@ -2215,7 +4409,8 @@
         "projectUrl": "https://github.com/ftlabs/ftdomdelegate",
         "authors": [
           {
-            "name": "Christian Holm Nielsen"
+            "name": "Christian Holm Nielsen",
+            "url": "https://github.com/dotnetnerd"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -2237,6 +4432,25 @@
           {
             "name": "Neil Stalker",
             "url": "https://github.com/nestalk"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "fuse",
+      "name": "fuse",
+      "path": "fuse/fuse.d.ts",
+      "info": {
+        "references": [],
+        "name": "Fuse.js 1.1.5",
+        "version": "1.1.5",
+        "description": "",
+        "projectUrl": "https://github.com/krisk/Fuse",
+        "authors": [
+          {
+            "name": "Greg Smith",
+            "url": "https://github.com/smrq"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -2426,6 +4640,44 @@
       }
     },
     {
+      "project": "gently",
+      "name": "gently",
+      "path": "gently/gently.d.ts",
+      "info": {
+        "references": [],
+        "name": "gently",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://www.npmjs.org/package/gently",
+        "authors": [
+          {
+            "name": "bonnici",
+            "url": "https://github.com/bonnici"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "geojson",
+      "name": "geojson",
+      "path": "geojson/geojson.d.ts",
+      "info": {
+        "references": [],
+        "name": "GeoJSON Format Specification",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://geojson.org",
+        "authors": [
+          {
+            "name": "Jacob Bruun",
+            "url": "https://github.com/cobster"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "giraffe",
       "name": "giraffe",
       "path": "giraffe/giraffe.d.ts",
@@ -2460,7 +4712,30 @@
         "projectUrl": "http://glad.github.com/glDatePicker",
         "authors": [
           {
-            "name": "Dániel Tar https"
+            "name": "Dániel Tar",
+            "url": "https://github.com/qcz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "glob-stream",
+      "name": "glob-stream",
+      "path": "glob-stream/glob-stream.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts",
+          "../glob/glob.d.ts"
+        ],
+        "name": "glob-stream v3.1.12",
+        "version": "3.1.12",
+        "description": "",
+        "projectUrl": "http://github.com/wearefractal/glob-stream",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -2607,13 +4882,20 @@
       "name": "google.maps.infobubble",
       "path": "googlemaps.infobubble/google.maps.infobubble.d.ts",
       "info": {
-        "references": [],
-        "name": "",
+        "references": [
+          "../googlemaps/google.maps.d.ts"
+        ],
+        "name": "CSS3 InfoBubble with tabs for Google Maps API V3",
         "version": "",
         "description": "",
-        "projectUrl": "",
-        "authors": [],
-        "reposUrl": ""
+        "projectUrl": "http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobubble/src",
+        "authors": [
+          {
+            "name": "Johan Nilsson",
+            "url": "https://github.com/Dashue"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
       }
     },
     {
@@ -2695,6 +4977,28 @@
       }
     },
     {
+      "project": "gridfs-stream",
+      "name": "gridfs-stream",
+      "path": "gridfs-stream/gridfs-stream.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts",
+          "../mongodb/mongodb.d.ts"
+        ],
+        "name": "gridfs-stream 0.5.0",
+        "version": "0.5.0",
+        "description": "",
+        "projectUrl": "https://github.com/aheckmann/gridfs-stream",
+        "authors": [
+          {
+            "name": "Lior Mualem",
+            "url": "https://github.com/liorm"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "gruntjs",
       "name": "gruntjs",
       "path": "gruntjs/gruntjs.d.ts",
@@ -2727,14 +5031,18 @@
         "references": [
           "../jquery/jquery.d.ts"
         ],
-        "name": "Hammer.js 1.0.10",
-        "version": "1.0.10",
+        "name": "Hammer.js 1.1.3",
+        "version": "1.1.3",
         "description": "",
         "projectUrl": "http://eightmedia.github.com/hammer.js",
         "authors": [
           {
             "name": "Boris Yankov",
             "url": "https://github.com/borisyankov"
+          },
+          {
+            "name": "Drew Noakes",
+            "url": "https://drewnoakes.com"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -2754,6 +5062,25 @@
           {
             "name": "Boris Yankov",
             "url": "https://github.com/borisyankov"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "hashmap",
+      "name": "hashmap",
+      "path": "hashmap/hashmap.d.ts",
+      "info": {
+        "references": [],
+        "name": "HashMap 1.1.0",
+        "version": "1.1.0",
+        "description": "",
+        "projectUrl": "https://github.com/flesler/hashmap",
+        "authors": [
+          {
+            "name": "Rafał Wrzeszcz",
+            "url": "http://wrzasq.pl"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -2805,8 +5132,8 @@
       "path": "hellojs/hellojs.d.ts",
       "info": {
         "references": [],
-        "name": "hello.js 0.2.1",
-        "version": "0.2.1",
+        "name": "hello.js 0.2.3",
+        "version": "0.2.3",
         "description": "",
         "projectUrl": "http://adodson.com/hello.js",
         "authors": [
@@ -2920,6 +5247,25 @@
       }
     },
     {
+      "project": "http-string-parser",
+      "name": "http-string-parser",
+      "path": "http-string-parser/http-string-parser.d.ts",
+      "info": {
+        "references": [],
+        "name": "http-string-parser",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/apiaryio/http-string-parser",
+        "authors": [
+          {
+            "name": "MIZUNE Pine",
+            "url": "https://github.com/pine613"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "humane",
       "name": "humane",
       "path": "humane/humane.d.ts",
@@ -2944,7 +5290,7 @@
       "path": "i18next/i18next.d.ts",
       "info": {
         "references": [],
-        "name": "i18next (v1.5.10 incl. jQuery)",
+        "name": "i18next v1.5.10",
         "version": "1.5.10",
         "description": "",
         "projectUrl": "http://i18next.com",
@@ -2977,6 +5323,25 @@
       }
     },
     {
+      "project": "imagemagick",
+      "name": "imagemagick",
+      "path": "imagemagick/imagemagick.d.ts",
+      "info": {
+        "references": [],
+        "name": "imagemagick",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://github.com/rsms/node-imagemagick",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "impress",
       "name": "impress",
       "path": "impress/impress.d.ts",
@@ -2990,6 +5355,44 @@
           {
             "name": "Boris Yankov",
             "url": "https://github.com/borisyankov"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "interactjs",
+      "name": "interact",
+      "path": "interactjs/interact.d.ts",
+      "info": {
+        "references": [],
+        "name": "Interacting for interact.js v1.0.17",
+        "version": "1.0.17",
+        "description": "",
+        "projectUrl": "https://github.com/taye/interact.js",
+        "authors": [
+          {
+            "name": "Douglas Eichelberger",
+            "url": "https://github.com/dduugg"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyType"
+      }
+    },
+    {
+      "project": "ion.rangeSlider",
+      "name": "ion.rangeSlider",
+      "path": "ion.rangeSlider/ion.rangeSlider.d.ts",
+      "info": {
+        "references": [],
+        "name": "for Ion.RangeSlider 1.9.1",
+        "version": "1.9.1",
+        "description": "",
+        "projectUrl": "https://github.com/IonDen/ion.rangeSlider",
+        "authors": [
+          {
+            "name": "Douglas Eichelberger",
+            "url": "https://github.com/dduugg"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -3203,26 +5606,6 @@
     {
       "project": "jasmine",
       "name": "jasmine",
-      "path": "jasmine/jasmine-1.3.d.ts",
-      "semver": "1.3.0",
-      "info": {
-        "references": [],
-        "name": "Jasmine 1.3",
-        "version": "1.3",
-        "description": "",
-        "projectUrl": "http://pivotal.github.com/jasmine",
-        "authors": [
-          {
-            "name": "Boris Yankov",
-            "url": "https://github.com/borisyankov"
-          }
-        ],
-        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
-      }
-    },
-    {
-      "project": "jasmine",
-      "name": "jasmine",
       "path": "jasmine/jasmine.d.ts",
       "info": {
         "references": [],
@@ -3238,6 +5621,44 @@
           {
             "name": "Theodore Brown",
             "url": "https://github.com/theodorejb"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jdataview",
+      "name": "jdataview",
+      "path": "jdataview/jdataview.d.ts",
+      "info": {
+        "references": [],
+        "name": "jDataView",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/jDataView/jDataView",
+        "authors": [
+          {
+            "name": "Ingvar Stepanyan",
+            "url": "https://github.com/RReverser"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "joi",
+      "name": "joi",
+      "path": "joi/joi.d.ts",
+      "info": {
+        "references": [],
+        "name": "joi v4.6.0",
+        "version": "4.6.0",
+        "description": "",
+        "projectUrl": "https://github.com/spumko/joi",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -3283,7 +5704,8 @@
         "projectUrl": "http://ghusse.github.com/jQRangeSlider",
         "authors": [
           {
-            "name": "Dániel Tar https"
+            "name": "Dániel Tar",
+            "url": "https://github.com/qcz"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -3303,7 +5725,12 @@
         "projectUrl": "https://github.com/asual/jquery-address",
         "authors": [
           {
-            "name": "Martin Duparc"
+            "name": "Martin Duparc",
+            "url": "https://github.com/martinduparc"
+          },
+          {
+            "name": "Tim Klingeleers",
+            "url": "https://github.com/mardaneus86"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -3394,6 +5821,27 @@
       }
     },
     {
+      "project": "jquery.blockUI",
+      "name": "jquery.blockUI",
+      "path": "jquery.blockUI/jquery.blockUI.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jQuery BlockUI Plugin",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://malsup.com/jquery/block",
+        "authors": [
+          {
+            "name": "Jeffrey Lee",
+            "url": "http://blog.darkthread.net"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "jquery.bootstrap.wizard",
       "name": "jquery.bootstrap.wizard",
       "path": "jquery.bootstrap.wizard/jquery.bootstrap.wizard.d.ts",
@@ -3443,7 +5891,7 @@
         "references": [
           "../jquery/jquery.d.ts"
         ],
-        "name": "jquery.clientSideLogging.",
+        "name": "jquery.clientSideLogging",
         "version": "",
         "description": "",
         "projectUrl": "https://github.com/remybach/jQuery.clientSideLogging",
@@ -3491,7 +5939,8 @@
         "projectUrl": "http://www.jacklmoore.com/colorbox",
         "authors": [
           {
-            "name": "Gidon Junge"
+            "name": "Gidon Junge",
+            "url": "https://github.com/gjunge"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -3568,13 +6017,13 @@
         "references": [
           "../jquery/jquery.d.ts"
         ],
-        "name": "jQuery.cycle.js 2.9999.81 (15-JAN-2013)",
-        "version": "2.9999.81",
+        "name": "jQuery.cycle.js",
+        "version": "",
         "description": "",
         "projectUrl": "http://jquery.malsup.com/cycle",
         "authors": [
           {
-            "name": "Fran�ois Guillot",
+            "name": "François Guillot",
             "url": "http://fguillot.developpez.com"
           }
         ],
@@ -3590,7 +6039,7 @@
         "name": "jQuery Cycle2 version 2.1.2 (build 20140216)",
         "version": "2.1.2",
         "description": "",
-        "projectUrl": "",
+        "projectUrl": "http://jquery.malsup.com/cycle2",
         "authors": [],
         "reposUrl": ""
       }
@@ -3620,15 +6069,17 @@
       "path": "jquery.dynatree/jquery.dynatree.d.ts",
       "info": {
         "references": [
-          "../jquery/jquery.d.ts"
+          "../jquery/jquery.d.ts",
+          "../jqueryui/jqueryui.d.ts"
         ],
-        "name": "jquery.dynatree 1.2",
-        "version": "1.2",
+        "name": "jquery.dynatree 1.2.5",
+        "version": "1.2.5",
         "description": "",
         "projectUrl": "http://code.google.com/p/dynatree",
         "authors": [
           {
-            "name": "https"
+            "name": "François de Campredon",
+            "url": "https://github.com/fdecampredon"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -3650,6 +6101,48 @@
           {
             "name": "Zoltan Sumegi",
             "url": "https://github.com/sumegizoltan"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jquery.fileupload",
+      "name": "jquery.fileupload",
+      "path": "jquery.fileupload/jquery.fileupload.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jQuery File Upload Plugin 5.40.1",
+        "version": "5.40.1",
+        "description": "",
+        "projectUrl": "https://github.com/blueimp/jQuery-File-Upload",
+        "authors": [
+          {
+            "name": "Rob Alarcon",
+            "url": "https://github.com/rob-alarcon"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jquery.finger",
+      "name": "jquery.finger",
+      "path": "jquery.finger/jquery.finger.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jquery.finger.js",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://ngryman.sh/jquery.finger",
+        "authors": [
+          {
+            "name": "Max Ackley",
+            "url": "https://github.com/maxackley"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -3787,7 +6280,29 @@
         "projectUrl": "https://github.com/kamens/jQuery-menu-aim",
         "authors": [
           {
-            "name": "Robert Fonseca-Ensor"
+            "name": "Robert Fonseca-Ensor",
+            "url": "http://www.robfe.com"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jquery.notifyBar",
+      "name": "jquery.notifyBar",
+      "path": "jquery.notifyBar/jquery.notifyBar.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jQuery Notify Bar 1.4",
+        "version": "1.4",
+        "description": "",
+        "projectUrl": "http://www.whoop.ee/posts/2013-04-05-the-resurrection-of-jquery-notify-bar",
+        "authors": [
+          {
+            "name": "Shunsuke Ohtani",
+            "url": "https://github.com/zaneli"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -3853,6 +6368,48 @@
       }
     },
     {
+      "project": "jquery.pjax.falsandtru",
+      "name": "jquery.pjax",
+      "path": "jquery.pjax.falsandtru/jquery.pjax.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jquery.pjax.ts by falsandtru",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/falsandtru/jquery.pjax.js",
+        "authors": [
+          {
+            "name": "新ゝ月 NewNotMoon",
+            "url": "http://new.not-moon.net"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jquery.pjax",
+      "name": "jquery.pjax",
+      "path": "jquery.pjax/jquery.pjax.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jquery-pjax",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/defunkt/jquery-pjax",
+        "authors": [
+          {
+            "name": "Junle Li",
+            "url": "https://github.com/lijunle"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "jquery.placeholder",
       "name": "jquery.placeholder",
       "path": "jquery.placeholder/jquery.placeholder.d.ts",
@@ -3887,7 +6444,48 @@
         "projectUrl": "https://github.com/sciactive/pnotify",
         "authors": [
           {
-            "name": "https"
+            "name": "David Sichau",
+            "url": "https://github.com/DavidSichau"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jquery.postMessage",
+      "name": "jquery.postMessage",
+      "path": "jquery.postMessage/jquery.postMessage.d.ts",
+      "info": {
+        "references": [],
+        "name": "jQuery postMessage",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://benalman.com/projects/jquery-postmessage-plugin",
+        "authors": [
+          {
+            "name": "Junle Li",
+            "url": "https://github.com/lijunle"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jquery.prettyphoto",
+      "name": "jquery.prettyphoto",
+      "path": "jquery.prettyphoto/jquery.prettyphoto.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jQuery prettyPhoto 3.1.5",
+        "version": "3.1.5",
+        "description": "",
+        "projectUrl": "https://github.com/scaron/prettyphoto",
+        "authors": [
+          {
+            "name": "pgaske",
+            "url": "https://github.com/pgaske"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4012,7 +6610,29 @@
         "projectUrl": "http://welldonethings.com/tags/manager",
         "authors": [
           {
-            "name": "https"
+            "name": "Vincent Bortone",
+            "url": "https://github.com/vbortone"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jquery.tile",
+      "name": "jquery.tile",
+      "path": "jquery.tile/jquery.tile.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jquery.tile.js 1.1.0",
+        "version": "1.1.0",
+        "description": "",
+        "projectUrl": "https://github.com/urin/jquery.tile.js",
+        "authors": [
+          {
+            "name": "Shunsuke Ohtani",
+            "url": "https://github.com/zaneli"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4054,7 +6674,8 @@
         "projectUrl": "http://fgelinas.com/code/timepicker",
         "authors": [
           {
-            "name": "https"
+            "name": "Anwar Javed",
+            "url": "https://github.com/anwarjaved"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4145,6 +6766,27 @@
       }
     },
     {
+      "project": "jquery.total-storage",
+      "name": "jquery.total-storage",
+      "path": "jquery.total-storage/jquery.total-storage.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jQueryTotalStorage 1.1.2",
+        "version": "1.1.2",
+        "description": "",
+        "projectUrl": "https://github.com/Upstatement/jquery-total-storage",
+        "authors": [
+          {
+            "name": "Jeremy Brooks",
+            "url": "https://github.com/JeremyCBrooks"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "jquery.transit",
       "name": "jquery.transit",
       "path": "jquery.transit/jquery.transit.d.ts",
@@ -4170,13 +6812,21 @@
       "name": "jquery.ui.datetimepicker",
       "path": "jquery.ui.datetimepicker/jquery.ui.datetimepicker.d.ts",
       "info": {
-        "references": [],
-        "name": "jQuery UI DateTimePicker 0.3 Addon",
+        "references": [
+          "../jquery/jquery.d.ts",
+          "../jqueryui/jqueryui.d.ts"
+        ],
+        "name": "jQuery UI DateTimePicker 0.3",
         "version": "0.3",
         "description": "",
-        "projectUrl": "",
-        "authors": [],
-        "reposUrl": ""
+        "projectUrl": "http://trentrichardson.com/examples/timepicker",
+        "authors": [
+          {
+            "name": "dougajmcdonald",
+            "url": "https://github.com/dougajmcdonald"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
       }
     },
     {
@@ -4212,13 +6862,15 @@
         "name": "jquery.validation 1.11.1",
         "version": "1.11.1",
         "description": "",
-        "projectUrl": "http://bassistance.de/jquery-plugins/jquery-plugin-validation",
+        "projectUrl": "http://jqueryvalidation.org",
         "authors": [
           {
-            "name": "https"
+            "name": "François de Campredon",
+            "url": "https://github.com/fdecampredon"
           },
           {
-            "name": "https"
+            "name": "Johj Reilly",
+            "url": "https://github.com/johnnyreilly"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4238,7 +6890,8 @@
         "projectUrl": "http://jquery-watermark.googlecode.com",
         "authors": [
           {
-            "name": "https"
+            "name": "Anwar Javed",
+            "url": "https://github.com/anwarjaved"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4268,7 +6921,8 @@
             "url": "https://github.com/Diullei"
           },
           {
-            "name": "Jason Swearingen"
+            "name": "Jason Swearingen",
+            "url": "https://github.com/jasons-novaleaf"
           },
           {
             "name": "Guus Goossens",
@@ -4406,6 +7060,25 @@
       }
     },
     {
+      "project": "js-url",
+      "name": "js-url",
+      "path": "js-url/js-url.d.ts",
+      "info": {
+        "references": [],
+        "name": "url v1.8.6",
+        "version": "1.8.6",
+        "description": "",
+        "projectUrl": "https://github.com/websanova/js-url",
+        "authors": [
+          {
+            "name": "MIZUNE Pine",
+            "url": "https://github.com/pine613"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "js-yaml",
       "name": "js-yaml",
       "path": "js-yaml/js-yaml.d.ts",
@@ -4419,6 +7092,25 @@
           {
             "name": "Bart van der Schoor",
             "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jsbn",
+      "name": "jsbn",
+      "path": "jsbn/jsbn.d.ts",
+      "info": {
+        "references": [],
+        "name": "jsbn v1.2",
+        "version": "1.2",
+        "description": "",
+        "projectUrl": "http://www-cs-students.stanford.edu/%7Etjw/jsbn",
+        "authors": [
+          {
+            "name": "Eugene Chernyshov",
+            "url": "https://github.com/Evgenus"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4571,7 +7263,7 @@
         "references": [
           "../jquery/jquery.d.ts"
         ],
-        "name": "jsPlumb 1.3.16 jQuery adapter.",
+        "name": "jsPlumb 1.3.16 jQuery adapter",
         "version": "1.3.16",
         "description": "",
         "projectUrl": "http://jsplumb.org",
@@ -4598,7 +7290,8 @@
         "projectUrl": "http://www.jsviews.com/#jsrender",
         "authors": [
           {
-            "name": "https"
+            "name": "Kensuke Matsuzaki",
+            "url": "https://github.com/zakki"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4618,6 +7311,27 @@
           {
             "name": "Danil Flores",
             "url": "https://github.com/dflor003"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "jstree",
+      "name": "jstree",
+      "path": "jstree/jstree.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "jsTree v3.0.0",
+        "version": "3.0.0",
+        "description": "",
+        "projectUrl": "http://www.jstree.com",
+        "authors": [
+          {
+            "name": "Adam Pluciński",
+            "url": "https://github.com/adaskothebeast"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4676,7 +7390,7 @@
         "authors": [
           {
             "name": "Michel Salib",
-            "url": "michelsalib@hotmail.com"
+            "url": "https://github.com/michelsalib"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4696,6 +7410,25 @@
           {
             "name": "Vincent Bortone",
             "url": "https://github.com/vbortone"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "keymaster",
+      "name": "keymaster",
+      "path": "keymaster/keymaster.d.ts",
+      "info": {
+        "references": [],
+        "name": "keymaster v1.6.2",
+        "version": "1.6.2",
+        "description": "",
+        "projectUrl": "https://github.com/madrobby/keymaster",
+        "authors": [
+          {
+            "name": "Martin W. Kirst",
+            "url": "https://github.com/nitram509"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4741,6 +7474,27 @@
           {
             "name": "Boris Yankov",
             "url": "https://github.com/borisyankov"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "knockout.amd.helpers",
+      "name": "knockout-amd-helpers",
+      "path": "knockout.amd.helpers/knockout-amd-helpers.d.ts",
+      "info": {
+        "references": [
+          "../knockout/knockout.d.ts"
+        ],
+        "name": "knockout-amd-helpers",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/rniemeyer/knockout-amd-helpers",
+        "authors": [
+          {
+            "name": "David Sichau",
+            "url": "https://github.com/DavidSichau"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -4919,10 +7673,10 @@
       "info": {
         "references": [
           "../knockout/knockout.d.ts",
-          "../rx.js/rx.d.ts"
+          "../rx/rx.d.ts"
         ],
-        "name": "knockout.rx 0.1",
-        "version": "0.1",
+        "name": "knockout.rx 1.0",
+        "version": "1.0",
         "description": "",
         "projectUrl": "https://github.com/Igorbek/knockout.rx",
         "authors": [
@@ -4982,14 +7736,18 @@
       "path": "knockout/knockout.d.ts",
       "info": {
         "references": [],
-        "name": "Knockout 2.3",
-        "version": "2.3",
+        "name": "Knockout v3.2.0-beta",
+        "version": "3.2.0-beta",
         "description": "",
         "projectUrl": "http://knockoutjs.com",
         "authors": [
           {
             "name": "Boris Yankov",
             "url": "https://github.com/borisyankov"
+          },
+          {
+            "name": "Igor Oleinikov",
+            "url": "https://github.com/Igorbek"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -5061,8 +7819,8 @@
       "path": "leaflet/leaflet.d.ts",
       "info": {
         "references": [],
-        "name": "Leaflet.js 0.6.4",
-        "version": "0.6.4",
+        "name": "Leaflet.js 0.7.3",
+        "version": "0.7.3",
         "description": "",
         "projectUrl": "https://github.com/Leaflet/Leaflet",
         "authors": [
@@ -5156,7 +7914,7 @@
       "path": "linq/linq.3.0.3-Beta4.d.ts",
       "info": {
         "references": [],
-        "name": "linq.js, ver 3.0.3-Beta4",
+        "name": "linq.js v3.0.3-Beta4",
         "version": "3.0.3-Beta4",
         "description": "",
         "projectUrl": "http://linqjs.codeplex.com",
@@ -5181,7 +7939,8 @@
         "projectUrl": "http://linqjs.codeplex.com",
         "authors": [
           {
-            "name": "Marcin Najder"
+            "name": "Marcin Najder",
+            "url": "https://github.com/marcinnajder"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -5229,6 +7988,25 @@
       }
     },
     {
+      "project": "lockfile",
+      "name": "lockfile",
+      "path": "lockfile/lockfile.d.ts",
+      "info": {
+        "references": [],
+        "name": "lockfile v0.4.2",
+        "version": "0.4.2",
+        "description": "",
+        "projectUrl": "https://github.com/isaacs/lockfile",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "lodash",
       "name": "lodash",
       "path": "lodash/lodash.d.ts",
@@ -5267,6 +8045,82 @@
       }
     },
     {
+      "project": "long",
+      "name": "long",
+      "path": "long/long.d.ts",
+      "info": {
+        "references": [],
+        "name": "Long.js 1.1.2",
+        "version": "1.1.2",
+        "description": "",
+        "projectUrl": "https://github.com/dcodeIO/Long.js",
+        "authors": [
+          {
+            "name": "Toshihide Hara",
+            "url": "https://github.com/kerug"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "lru-cache",
+      "name": "lru-cache",
+      "path": "lru-cache/lru-cache.d.ts",
+      "info": {
+        "references": [],
+        "name": "lru-cache v2.5.0",
+        "version": "2.5.0",
+        "description": "",
+        "projectUrl": "https://github.com/isaacs/node-lru-cache",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "lunr",
+      "name": "lunr",
+      "path": "lunr/lunr.d.ts",
+      "info": {
+        "references": [],
+        "name": "lunr.js 0.5.4",
+        "version": "0.5.4",
+        "description": "",
+        "projectUrl": "https://github.com/olivernn/lunr.js",
+        "authors": [
+          {
+            "name": "Sebastian Lenz",
+            "url": "https://github.com/sebastian-lenz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "lz-string",
+      "name": "lz-string",
+      "path": "lz-string/lz-string.d.ts",
+      "info": {
+        "references": [],
+        "name": "lz-string v1.3.3",
+        "version": "1.3.3",
+        "description": "",
+        "projectUrl": "https://github.com/pieroxy/lz-string",
+        "authors": [
+          {
+            "name": "Roman Nikitin",
+            "url": "https://github.com/M0ns1gn0r"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "mCustomScrollbar",
       "name": "mCustomScrollbar",
       "path": "mCustomScrollbar/mCustomScrollbar.d.ts",
@@ -5282,6 +8136,27 @@
           {
             "name": "Sarah Williams",
             "url": "https://github.com/flurg"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "mapbox",
+      "name": "mapbox",
+      "path": "mapbox/mapbox.d.ts",
+      "info": {
+        "references": [
+          "../leaflet/leaflet.d.ts"
+        ],
+        "name": "Mapbox 1.6.3",
+        "version": "1.6.3",
+        "description": "",
+        "projectUrl": "https://www.mapbox.com/mapbox.js",
+        "authors": [
+          {
+            "name": "Maxime Fabre",
+            "url": "https://github.com/anahkiasen"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -5326,10 +8201,6 @@
           {
             "name": "Natan Vivo",
             "url": "https://github.com/nvivo"
-          },
-          {
-            "name": "Sven Tschui",
-            "url": "https://github.com/sventschui"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -5349,6 +8220,44 @@
           {
             "name": "William Orr",
             "url": "https://github.com/worr"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "mathjax",
+      "name": "mathjax",
+      "path": "mathjax/mathjax.d.ts",
+      "info": {
+        "references": [],
+        "name": "MathJax",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/mathjax/MathJax",
+        "authors": [
+          {
+            "name": "Roland Zwaga",
+            "url": "https://github.com/rolandzwaga"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "memory-cache",
+      "name": "memory-cache",
+      "path": "memory-cache/memory-cache.d.ts",
+      "info": {
+        "references": [],
+        "name": "memory-cache",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://github.com/ptarjan/node-cache",
+        "authors": [
+          {
+            "name": "Jeff Goddard",
+            "url": "https://github.com/jedigo"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -5393,17 +8302,79 @@
       }
     },
     {
-      "project": "microsoft-live-connect",
-      "name": "microsoft-live-connect",
-      "path": "microsoft-live-connect/microsoft-live-connect.d.ts",
+      "project": "method-override",
+      "name": "method-override",
+      "path": "method-override/method-override.d.ts",
+      "info": {
+        "references": [
+          "../express/express.d.ts"
+        ],
+        "name": "method-override",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/expressjs/method-override",
+        "authors": [
+          {
+            "name": "Santi Albo",
+            "url": "https://github.com/santialbo"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "microsoft-ajax",
+      "name": "microsoft.ajax",
+      "path": "microsoft-ajax/microsoft.ajax.d.ts",
       "info": {
         "references": [],
-        "name": "",
+        "name": "Microsoft ASP.NET Ajax client side library",
         "version": "",
         "description": "",
         "projectUrl": "",
         "authors": [],
         "reposUrl": ""
+      }
+    },
+    {
+      "project": "microsoft-live-connect",
+      "name": "microsoft-live-connect",
+      "path": "microsoft-live-connect/microsoft-live-connect.d.ts",
+      "info": {
+        "references": [
+          "../winjs/winjs.d.ts",
+          "../winrt/winrt.d.ts"
+        ],
+        "name": "Microsoft Live Connect v5.0",
+        "version": "5.0",
+        "description": "",
+        "projectUrl": "http://msdn.microsoft.com/en-us/library/live/hh243643.aspx",
+        "authors": [
+          {
+            "name": "John Vilk",
+            "url": "https://github.com/jvilk"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "mime",
+      "name": "mime",
+      "path": "mime/mime.d.ts",
+      "info": {
+        "references": [],
+        "name": "mime",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/broofa/node-mime",
+        "authors": [
+          {
+            "name": "Jeff Goddard",
+            "url": "https://github.com/jedigo"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
       }
     },
     {
@@ -5442,6 +8413,20 @@
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "mixpanel",
+      "name": "mixpanel",
+      "path": "mixpanel/mixpanel.d.ts",
+      "info": {
+        "references": [],
+        "name": "Mixpanel",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://mixpanel.com",
+        "authors": [],
+        "reposUrl": ""
       }
     },
     {
@@ -5496,6 +8481,10 @@
           {
             "name": "Kazi Manzur Rashid",
             "url": "https://github.com/kazimanzurrashid"
+          },
+          {
+            "name": "otiai10",
+            "url": "https://github.com/otiai10"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -5544,8 +8533,8 @@
             "url": "https://github.com/kingdango"
           },
           {
-            "name": "Hiroki Horiuchi",
-            "url": "https://github.com/horiuchi"
+            "name": "Dick van den Brink",
+            "url": "https://github.com/DickvdBrink"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -5571,6 +8560,27 @@
       }
     },
     {
+      "project": "mongoose",
+      "name": "mongoose",
+      "path": "mongoose/mongoose.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "Mongoose 3.8.5",
+        "version": "3.8.5",
+        "description": "",
+        "projectUrl": "http://mongoosejs.com",
+        "authors": [
+          {
+            "name": "horiuchi",
+            "url": "https://github.com/horiuchi"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "mousetrap",
       "name": "mousetrap",
       "path": "mousetrap/mousetrap.d.ts",
@@ -5582,7 +8592,27 @@
         "projectUrl": "http://craig.is/killing/mice",
         "authors": [
           {
-            "name": "Dániel Tar https"
+            "name": "Dániel Tar",
+            "url": "https://github.com/qcz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "moviedb",
+      "name": "moviedb",
+      "path": "moviedb/moviedb.d.ts",
+      "info": {
+        "references": [],
+        "name": "MovieDB",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/danzajdband/moviedb",
+        "authors": [
+          {
+            "name": "Basarat Ali Syed",
+            "url": "https://github.com/basarat"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -5629,6 +8659,25 @@
       }
     },
     {
+      "project": "mu2",
+      "name": "mu2",
+      "path": "mu2/mu2.d.ts",
+      "info": {
+        "references": [],
+        "name": "mu2",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://github.com/raycmorgan/mu",
+        "authors": [
+          {
+            "name": "Jeff Goddard",
+            "url": "https://github.com/jedigo"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "mustache",
       "name": "mustache",
       "path": "mustache/mustache.d.ts",
@@ -5648,6 +8697,86 @@
       }
     },
     {
+      "project": "mysql",
+      "name": "mysql",
+      "path": "mysql/mysql.d.ts",
+      "info": {
+        "references": [],
+        "name": "node-mysql",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/felixge/node-mysql",
+        "authors": [
+          {
+            "name": "William Johnston",
+            "url": "https://github.com/wjohnsto"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "nconf",
+      "name": "nconf",
+      "path": "nconf/nconf.d.ts",
+      "info": {
+        "references": [],
+        "name": "nconf",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/flatiron/nconf",
+        "authors": [
+          {
+            "name": "Jeff Goddard",
+            "url": "https://github.com/jedigo"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "ncp",
+      "name": "ncp",
+      "path": "ncp/ncp.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "ncp v0.5.1",
+        "version": "0.5.1",
+        "description": "",
+        "projectUrl": "https://github.com/AvianFlu/ncp",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "needle",
+      "name": "needle",
+      "path": "needle/needle.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "needle 0.7.8",
+        "version": "0.7.8",
+        "description": "",
+        "projectUrl": "https://github.com/tomas/needle",
+        "authors": [
+          {
+            "name": "San Chen",
+            "url": "https://github.com/bigsan"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "ng-grid",
       "name": "ng-grid",
       "path": "ng-grid/ng-grid.d.ts",
@@ -5661,6 +8790,29 @@
           {
             "name": "Ken Smith",
             "url": "https://github.com/smithkl42"
+          },
+          {
+            "name": "Roland Zwaga",
+            "url": "https://github.com/rolandzwaga"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "ngprogress-lite",
+      "name": "ngprogress-lite",
+      "path": "ngprogress-lite/ngprogress-lite.d.ts",
+      "info": {
+        "references": [],
+        "name": "ngprogress-lite",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/voronianski/ngprogress-lite",
+        "authors": [
+          {
+            "name": "Luke Forder",
+            "url": "https://github.com/LukeForder"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -5680,6 +8832,46 @@
           {
             "name": "Ken Smith",
             "url": "https://github.com/smithkl42"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "noble",
+      "name": "noble",
+      "path": "noble/noble.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "noble",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/sandeepmistry/noble",
+        "authors": [
+          {
+            "name": "Seon-Wook Park",
+            "url": "https://github.com/swook"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "nock",
+      "name": "nock",
+      "path": "nock/nock.d.ts",
+      "info": {
+        "references": [],
+        "name": "nock",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/pgte/nock",
+        "authors": [
+          {
+            "name": "bonnici",
+            "url": "https://github.com/bonnici"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -5712,13 +8904,30 @@
     },
     {
       "project": "node-ffi",
+      "name": "node-ffi-buffer",
+      "path": "node-ffi/node-ffi-buffer.d.ts",
+      "info": {
+        "references": [],
+        "name": "",
+        "version": "",
+        "description": "",
+        "projectUrl": "",
+        "authors": [],
+        "reposUrl": ""
+      }
+    },
+    {
+      "project": "node-ffi",
       "name": "node-ffi",
       "path": "node-ffi/node-ffi.d.ts",
       "info": {
         "references": [
-          "../node/node.d.ts"
+          "../node/node.d.ts",
+          "node-ffi-buffer.d.ts",
+          "../ref/ref.d.ts",
+          "../ref-struct/ref-struct.d.ts"
         ],
-        "name": "node-ffi, ref, ref-array, ref-struct and ref-union",
+        "name": "node-ffi",
         "version": "",
         "description": "",
         "projectUrl": "https://github.com/rbranson/node-ffi",
@@ -5751,6 +8960,29 @@
       }
     },
     {
+      "project": "node-form",
+      "name": "node-form",
+      "path": "node-form/node-form.d.ts",
+      "info": {
+        "references": [
+          "../underscore/underscore.d.ts",
+          "../q/Q.d.ts",
+          "../moment/moment.d.ts"
+        ],
+        "name": "node-form v1.0.13",
+        "version": "1.0.13",
+        "description": "",
+        "projectUrl": "https://github.com/rsamec/form",
+        "authors": [
+          {
+            "name": "Roman Samec",
+            "url": "https://github.com/rsamec"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "node-git",
       "name": "node-git",
       "path": "node-git/node-git.d.ts",
@@ -5770,6 +9002,27 @@
       }
     },
     {
+      "project": "node-uuid",
+      "name": "node-uuid",
+      "path": "node-uuid/node-uuid.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "node-uuid.js",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/broofa/node-uuid",
+        "authors": [
+          {
+            "name": "Jeff May",
+            "url": "https://github.com/jeffmay"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "node",
       "name": "node",
       "path": "node/node-0.8.8.d.ts",
@@ -5780,7 +9033,12 @@
         "version": "0.8.8",
         "description": "",
         "projectUrl": "http://nodejs.org",
-        "authors": [],
+        "authors": [
+          {
+            "name": "Microsoft TypeScript",
+            "url": "http://typescriptlang.org"
+          }
+        ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
       }
     },
@@ -5794,7 +9052,16 @@
         "version": "0.10.1",
         "description": "",
         "projectUrl": "http://nodejs.org",
-        "authors": [],
+        "authors": [
+          {
+            "name": "Microsoft TypeScript",
+            "url": "http://typescriptlang.org"
+          },
+          {
+            "name": "DefinitelyTyped",
+            "url": "https://github.com/borisyankov/DefinitelyTyped"
+          }
+        ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
       }
     },
@@ -5850,6 +9117,25 @@
           {
             "name": "Vincent Bortone",
             "url": "https://github.com/vbortone"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "nodeunit",
+      "name": "nodeunit",
+      "path": "nodeunit/nodeunit.d.ts",
+      "info": {
+        "references": [],
+        "name": "nodeunit",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/caolan/nodeunit",
+        "authors": [
+          {
+            "name": "Jeff Goddard",
+            "url": "https://github.com/jedigo"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -5932,6 +9218,46 @@
       }
     },
     {
+      "project": "object-path",
+      "name": "object-path",
+      "path": "object-path/object-path.d.ts",
+      "info": {
+        "references": [],
+        "name": "objectPath v0.6.0",
+        "version": "0.6.0",
+        "description": "",
+        "projectUrl": "https://github.com/mariocasciaro/object-path",
+        "authors": [
+          {
+            "name": "Paulo Cesar",
+            "url": "https://github.com/pocesar"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "oclazyload",
+      "name": "oclazyload",
+      "path": "oclazyload/oclazyload.d.ts",
+      "info": {
+        "references": [
+          "../angularjs/angular.d.ts"
+        ],
+        "name": "oc.LazyLoad",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/ocombe/ocLazyLoad",
+        "authors": [
+          {
+            "name": "Roland Zwaga",
+            "url": "https://github.com/rolandzwaga"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "open",
       "name": "open",
       "path": "open/open.d.ts",
@@ -5970,6 +9296,25 @@
       }
     },
     {
+      "project": "optimist",
+      "name": "optimist",
+      "path": "optimist/optimist.d.ts",
+      "info": {
+        "references": [],
+        "name": "optimist",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/substack/node-optimist",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "parallel",
       "name": "parallel",
       "path": "parallel/parallel.d.ts",
@@ -5994,10 +9339,10 @@
       "path": "parsimmon/parsimmon.d.ts",
       "info": {
         "references": [],
-        "name": "Parsimmon 0.3.0",
-        "version": "0.3.0",
+        "name": "Parsimmon 0.5.0",
+        "version": "0.5.0",
         "description": "",
-        "projectUrl": "https://github.com/jayferd/parsimmon",
+        "projectUrl": "https://github.com/jneen/parsimmon",
         "authors": [
           {
             "name": "Bart van der Schoor",
@@ -6023,6 +9368,28 @@
           {
             "name": "James Roland Cabresos",
             "url": "https://github.com/staticfunction"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "passport-strategy",
+      "name": "passport-strategy",
+      "path": "passport-strategy/passport-strategy.d.ts",
+      "info": {
+        "references": [
+          "../express/express.d.ts",
+          "../passport/passport.d.ts"
+        ],
+        "name": "Passport Strategy module v0.2.0",
+        "version": "0.2.0",
+        "description": "",
+        "projectUrl": "https://github.com/jaredhanson/passport-strategy",
+        "authors": [
+          {
+            "name": "Lior Mualem",
+            "url": "https://github.com/liorm"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -6129,6 +9496,27 @@
       }
     },
     {
+      "project": "pg",
+      "name": "pg",
+      "path": "pg/pg.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "pg",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/brianc/node-postgres",
+        "authors": [
+          {
+            "name": "Phips Peter",
+            "url": "http://pspeter3.com"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "phantomjs",
       "name": "phantomjs",
       "path": "phantomjs/phantomjs.d.ts",
@@ -6165,6 +9553,10 @@
           {
             "name": "Boris Yankov",
             "url": "https://github.com/borisyankov"
+          },
+          {
+            "name": "Dick van den Brink",
+            "url": "https://github.com/DickvdBrink"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -6308,17 +9700,41 @@
       }
     },
     {
+      "project": "progressjs",
+      "name": "progress",
+      "path": "progressjs/progress.d.ts",
+      "info": {
+        "references": [],
+        "name": "ProgressJs v0.1.0",
+        "version": "0.1.0",
+        "description": "",
+        "projectUrl": "http://usablica.github.io/progress.js",
+        "authors": [
+          {
+            "name": "Shunsuke Ohtani",
+            "url": "https://github.com/zaneli"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "promises-a-plus",
       "name": "promises-a-plus",
       "path": "promises-a-plus/promises-a-plus.d.ts",
       "info": {
         "references": [],
-        "name": "",
+        "name": "promises-a-plus",
         "version": "",
         "description": "",
-        "projectUrl": "",
-        "authors": [],
-        "reposUrl": ""
+        "projectUrl": "http://promisesaplus.com",
+        "authors": [
+          {
+            "name": "Igor Oleinikov",
+            "url": "https://github.com/Igorbek"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
       }
     },
     {
@@ -6348,7 +9764,7 @@
       "path": "pubsubjs/pubsub.d.ts",
       "info": {
         "references": [],
-        "name": "PubSubJS  1.3.5",
+        "name": "PubSubJS 1.3.5",
         "version": "1.3.5",
         "description": "",
         "projectUrl": "https://github.com/mroderick/PubSubJS",
@@ -6438,10 +9854,12 @@
         "projectUrl": "https://github.com/kriskowal/q",
         "authors": [
           {
-            "name": "Barrie Nemetchek"
+            "name": "Barrie Nemetchek",
+            "url": "https://github.com/bnemetchek"
           },
           {
-            "name": "Andrew Gaspar"
+            "name": "Andrew Gaspar",
+            "url": "https://github.com/AndrewGaspar"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -6478,7 +9896,8 @@
         "projectUrl": "http://raphaeljs.com",
         "authors": [
           {
-            "name": "https"
+            "name": "CheCoxshall",
+            "url": "https://github.com/CheCoxshall"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -6498,6 +9917,175 @@
           {
             "name": "Santi Albo",
             "url": "https://github.com/santialbo"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "readdir-stream",
+      "name": "readdir-stream",
+      "path": "readdir-stream/readdir-stream.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "readdir-stream v0.1.0",
+        "version": "0.1.0",
+        "description": "",
+        "projectUrl": "https://github.com/logicalparadox/readdir-stream",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "recaptcha",
+      "name": "recaptcha",
+      "path": "recaptcha/recaptcha.d.ts",
+      "info": {
+        "references": [],
+        "name": "Google Recaptcha",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://www.google.com/recaptcha",
+        "authors": [
+          {
+            "name": "Brent Jenkins",
+            "url": "https://github.com/brentj73"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "redis",
+      "name": "redis",
+      "path": "redis/redis.d.ts",
+      "info": {
+        "references": [],
+        "name": "redis",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/mranney/node_redis",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "ref-array",
+      "name": "ref-array",
+      "path": "ref-array/ref-array.d.ts",
+      "info": {
+        "references": [
+          "../node-ffi/node-ffi-buffer.d.ts",
+          "../ref/ref.d.ts"
+        ],
+        "name": "ref-array",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/TooTallNate/ref-array",
+        "authors": [
+          {
+            "name": "Paul Loyd",
+            "url": "https://github.com/loyd"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "ref-struct",
+      "name": "ref-struct",
+      "path": "ref-struct/ref-struct.d.ts",
+      "info": {
+        "references": [
+          "../node-ffi/node-ffi-buffer.d.ts",
+          "../ref/ref.d.ts"
+        ],
+        "name": "ref-union",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/TooTallNate/ref-struct",
+        "authors": [
+          {
+            "name": "Paul Loyd",
+            "url": "https://github.com/loyd"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "ref-union",
+      "name": "ref-union",
+      "path": "ref-union/ref-union.d.ts",
+      "info": {
+        "references": [
+          "../node-ffi/node-ffi-buffer.d.ts",
+          "../ref/ref.d.ts"
+        ],
+        "name": "ref-union",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/TooTallNate/ref-union",
+        "authors": [
+          {
+            "name": "Paul Loyd",
+            "url": "https://github.com/loyd"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "ref",
+      "name": "ref",
+      "path": "ref/ref.d.ts",
+      "info": {
+        "references": [
+          "../node-ffi/node-ffi-buffer.d.ts"
+        ],
+        "name": "ref-union",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/TooTallNate/ref",
+        "authors": [
+          {
+            "name": "Paul Loyd",
+            "url": "https://github.com/loyd"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "request",
+      "name": "request",
+      "path": "request/request.d.ts",
+      "info": {
+        "references": [],
+        "name": "request",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/mikeal/request",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
+          },
+          {
+            "name": "bonnici",
+            "url": "https://github.com/bonnici"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -6530,8 +10118,8 @@
         "references": [
           "../angularjs/angular.d.ts"
         ],
-        "name": "Restangular v1.2.2",
-        "version": "1.2.2",
+        "name": "Restangular v1.4.0",
+        "version": "1.4.0",
         "description": "",
         "projectUrl": "https://github.com/mgonto/restangular",
         "authors": [
@@ -6622,6 +10210,25 @@
       }
     },
     {
+      "project": "rimraf",
+      "name": "rimraf",
+      "path": "rimraf/rimraf.d.ts",
+      "info": {
+        "references": [],
+        "name": "rimraf",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/isaacs/rimraf",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "riotjs",
       "name": "riotjs-render",
       "path": "riotjs/riotjs-render.d.ts",
@@ -6629,7 +10236,7 @@
         "references": [
           "../jquery/jquery.d.ts"
         ],
-        "name": "riot.js (ext/render.js)",
+        "name": "riot.js",
         "version": "",
         "description": "",
         "projectUrl": "https://github.com/moot/riotjs",
@@ -6704,9 +10311,50 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rtree",
+      "name": "rtree",
+      "path": "rtree/rtree.d.ts",
+      "info": {
+        "references": [],
+        "name": "rtree 1.4.0",
+        "version": "1.4.0",
+        "description": "",
+        "projectUrl": "https://github.com/leaflet-extras/RTree",
+        "authors": [
+          {
+            "name": "Omede Firouz",
+            "url": "https://github.com/oefirouz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "rx-jquery",
+      "name": "rx.jquery",
+      "path": "rx-jquery/rx.jquery.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts",
+          "../rx/rx.d.ts"
+        ],
+        "name": "RxJS-jQuery",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/Reactive-Extensions/RxJS-jQuery",
+        "authors": [
+          {
+            "name": "Igor Oleinikov",
+            "url": "https://github.com/Igorbek"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "rx",
       "name": "rx-lite",
-      "path": "rx.js/rx-lite.d.ts",
+      "path": "rx/rx-lite.d.ts",
       "info": {
         "references": [],
         "name": "",
@@ -6718,15 +10366,15 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.aggregates",
-      "path": "rx.js/rx.aggregates.d.ts",
+      "path": "rx/rx.aggregates.d.ts",
       "info": {
         "references": [
           "rx.d.ts"
         ],
-        "name": "RxJS-Aggregates v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS-Aggregates v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "http://rx.codeplex.com",
         "authors": [
@@ -6743,9 +10391,9 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.async-lite",
-      "path": "rx.js/rx.async-lite.d.ts",
+      "path": "rx/rx.async-lite.d.ts",
       "info": {
         "references": [],
         "name": "",
@@ -6757,16 +10405,16 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.async",
-      "path": "rx.js/rx.async.d.ts",
+      "path": "rx/rx.async.d.ts",
       "info": {
         "references": [
           "rx.d.ts",
           "rx.async-lite.d.ts"
         ],
-        "name": "RxJS-Async v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS-Async v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "http://rx.codeplex.com",
         "authors": [
@@ -6783,9 +10431,9 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.backpressure-lite",
-      "path": "rx.js/rx.backpressure-lite.d.ts",
+      "path": "rx/rx.backpressure-lite.d.ts",
       "info": {
         "references": [],
         "name": "",
@@ -6797,16 +10445,16 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.backpressure",
-      "path": "rx.js/rx.backpressure.d.ts",
+      "path": "rx/rx.backpressure.d.ts",
       "info": {
         "references": [
           "rx.d.ts",
           "rx.backpressure-lite.d.ts"
         ],
-        "name": "RxJS-BackPressure v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS-BackPressure v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "http://rx.codeplex.com",
         "authors": [
@@ -6819,9 +10467,9 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.binding-lite",
-      "path": "rx.js/rx.binding-lite.d.ts",
+      "path": "rx/rx.binding-lite.d.ts",
       "info": {
         "references": [],
         "name": "",
@@ -6833,16 +10481,16 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.binding",
-      "path": "rx.js/rx.binding.d.ts",
+      "path": "rx/rx.binding.d.ts",
       "info": {
         "references": [
           "rx.d.ts",
           "rx.binding-lite.d.ts"
         ],
-        "name": "RxJS-Binding v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS-Binding v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "http://rx.codeplex.com",
         "authors": [
@@ -6859,15 +10507,30 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
+      "name": "rx.coincidence-lite",
+      "path": "rx/rx.coincidence-lite.d.ts",
+      "info": {
+        "references": [],
+        "name": "",
+        "version": "",
+        "description": "",
+        "projectUrl": "",
+        "authors": [],
+        "reposUrl": ""
+      }
+    },
+    {
+      "project": "rx",
       "name": "rx.coincidence",
-      "path": "rx.js/rx.coincidence.d.ts",
+      "path": "rx/rx.coincidence.d.ts",
       "info": {
         "references": [
-          "rx.d.ts"
+          "rx.d.ts",
+          "rx.coincidence-lite.d.ts"
         ],
-        "name": "RxJS-Coincidence v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS-Coincidence v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "http://rx.codeplex.com",
         "authors": [
@@ -6884,15 +10547,15 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx",
-      "path": "rx.js/rx.d.ts",
+      "path": "rx/rx.d.ts",
       "info": {
         "references": [
           "rx-lite.d.ts"
         ],
-        "name": "RxJS v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "http://rx.codeplex.com",
         "authors": [
@@ -6909,15 +10572,15 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.experimental",
-      "path": "rx.js/rx.experimental.d.ts",
+      "path": "rx/rx.experimental.d.ts",
       "info": {
         "references": [
           "rx.d.ts"
         ],
-        "name": "RxJS-Experimental v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS-Experimental v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "https://github.com/Reactive-Extensions/RxJS",
         "authors": [
@@ -6930,15 +10593,15 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.joinpatterns",
-      "path": "rx.js/rx.joinpatterns.d.ts",
+      "path": "rx/rx.joinpatterns.d.ts",
       "info": {
         "references": [
           "rx.d.ts"
         ],
-        "name": "RxJS-Join v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS-Join v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "http://rx.codeplex.com",
         "authors": [
@@ -6951,41 +10614,20 @@
       }
     },
     {
-      "project": "rx.js",
-      "name": "rx.jquery",
-      "path": "rx.js/rx.jquery.d.ts",
-      "info": {
-        "references": [
-          "../jquery/jquery.d.ts",
-          "rx.d.ts"
-        ],
-        "name": "bridging RxJS with jQuery.",
-        "version": "",
-        "description": "",
-        "projectUrl": "https://github.com/Reactive-Extensions/RxJS-jQuery",
-        "authors": [
-          {
-            "name": "Igor Oleinikov",
-            "url": "https://github.com/Igorbek"
-          }
-        ],
-        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
-      }
-    },
-    {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.lite",
-      "path": "rx.js/rx.lite.d.ts",
+      "path": "rx/rx.lite.d.ts",
       "info": {
         "references": [
           "rx-lite.d.ts",
           "rx.async-lite.d.ts",
           "rx.binding-lite.d.ts",
           "rx.time-lite.d.ts",
-          "rx.backpressure-lite.d.ts"
+          "rx.backpressure-lite.d.ts",
+          "rx.coincidence-lite.d.ts"
         ],
-        "name": "RxJS-Lite v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS-Lite v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "http://rx.codeplex.com",
         "authors": [
@@ -7002,16 +10644,16 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.testing",
-      "path": "rx.js/rx.testing.d.ts",
+      "path": "rx/rx.testing.d.ts",
       "info": {
         "references": [
           "rx.d.ts",
           "rx.virtualtime.d.ts"
         ],
-        "name": "RxJS-Testing v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS-Testing v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "https://github.com/Reactive-Extensions/RxJS",
         "authors": [
@@ -7024,9 +10666,9 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.time-lite",
-      "path": "rx.js/rx.time-lite.d.ts",
+      "path": "rx/rx.time-lite.d.ts",
       "info": {
         "references": [],
         "name": "",
@@ -7038,16 +10680,16 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.time",
-      "path": "rx.js/rx.time.d.ts",
+      "path": "rx/rx.time.d.ts",
       "info": {
         "references": [
           "rx.d.ts",
           "rx.time-lite.d.ts"
         ],
-        "name": "RxJS-Time v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS-Time v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "http://rx.codeplex.com",
         "authors": [
@@ -7064,15 +10706,15 @@
       }
     },
     {
-      "project": "rx.js",
+      "project": "rx",
       "name": "rx.virtualtime",
-      "path": "rx.js/rx.virtualtime.d.ts",
+      "path": "rx/rx.virtualtime.d.ts",
       "info": {
         "references": [
           "rx.d.ts"
         ],
-        "name": "RxJS-VirtualTime v2.2.20",
-        "version": "2.2.20",
+        "name": "RxJS-VirtualTime v2.2.28",
+        "version": "2.2.28",
         "description": "",
         "projectUrl": "http://rx.codeplex.com",
         "authors": [
@@ -7127,7 +10769,8 @@
         "projectUrl": "https://github.com/zynga/scroller",
         "authors": [
           {
-            "name": "Boris Yankov https"
+            "name": "Boris Yankov",
+            "url": "https://github.com/borisyankov"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -7145,7 +10788,8 @@
         "projectUrl": "https://github.com/zynga/scroller",
         "authors": [
           {
-            "name": "Boris Yankov https"
+            "name": "Boris Yankov",
+            "url": "https://github.com/borisyankov"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -7332,7 +10976,8 @@
             "url": "https://github.com/borisyankov"
           },
           {
-            "name": "Modified by"
+            "name": "T. Michael Keesey",
+            "url": "https://github.com/keesey"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -7413,6 +11058,25 @@
           {
             "name": "William Sears",
             "url": "https://github.com/mrbigdog2u"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "sjcl",
+      "name": "sjcl",
+      "path": "sjcl/sjcl.d.ts",
+      "info": {
+        "references": [],
+        "name": "sjcl v1.0.1",
+        "version": "1.0.1",
+        "description": "",
+        "projectUrl": "http://crypto.stanford.edu/sjcl",
+        "authors": [
+          {
+            "name": "Eugene Chernyshov",
+            "url": "https://github.com/Evgenus"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -7522,6 +11186,27 @@
       }
     },
     {
+      "project": "sockjs-node",
+      "name": "sockjs-node",
+      "path": "sockjs-node/sockjs-node.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "sockjs-node 0.3.x",
+        "version": "0.3",
+        "description": "",
+        "projectUrl": "https://github.com/sockjs/sockjs-node",
+        "authors": [
+          {
+            "name": "Phil McCloghry-Laing",
+            "url": "https://github.com/pmccloghrylaing"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "sockjs",
       "name": "sockjs",
       "path": "sockjs/sockjs.d.ts",
@@ -7565,8 +11250,8 @@
       "path": "source-map-support/source-map-support.d.ts",
       "info": {
         "references": [],
-        "name": "source-map-support 0.2.5",
-        "version": "0.2.5",
+        "name": "source-map-support 0.2.6",
+        "version": "0.2.6",
         "description": "",
         "projectUrl": "https://github.com/evanw/source-map-support",
         "authors": [
@@ -7583,13 +11268,20 @@
       "name": "space-pen",
       "path": "space-pen/space-pen.d.ts",
       "info": {
-        "references": [],
-        "name": "",
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "SpacePen",
         "version": "",
         "description": "",
-        "projectUrl": "",
-        "authors": [],
-        "reposUrl": ""
+        "projectUrl": "https://github.com/atom/space-pen",
+        "authors": [
+          {
+            "name": "vvakame",
+            "url": "https://github.com/vvakame"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
       }
     },
     {
@@ -7616,6 +11308,46 @@
       }
     },
     {
+      "project": "sprintf",
+      "name": "sprintf",
+      "path": "sprintf/sprintf.d.ts",
+      "info": {
+        "references": [],
+        "name": "sprintff",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/maritz/node-sprintff",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "sqlite3",
+      "name": "sqlite3",
+      "path": "sqlite3/sqlite3.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "sqlite3 2.2.3",
+        "version": "2.2.3",
+        "description": "",
+        "projectUrl": "https://github.com/mapbox/node-sqlite3",
+        "authors": [
+          {
+            "name": "Nick Malaguti",
+            "url": "https://github.com/nmalaguti"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "state-machine",
       "name": "state-machine",
       "path": "state-machine/state-machine.d.ts",
@@ -7633,10 +11365,6 @@
           {
             "name": "Maarten Docter",
             "url": "https://github.com/mdocter"
-          },
-          {
-            "name": "William Sears",
-            "url": "https://github.com/MrBigDog2U"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -7662,6 +11390,28 @@
       }
     },
     {
+      "project": "status-bar",
+      "name": "status-bar",
+      "path": "status-bar/status-bar.d.ts",
+      "info": {
+        "references": [
+          "../space-pen/space-pen.d.ts",
+          "../text-buffer/text-buffer.d.ts"
+        ],
+        "name": "status-bar",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/atom/status-bar",
+        "authors": [
+          {
+            "name": "vvakame",
+            "url": "https://github.com/vvakame"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "storejs",
       "name": "storejs",
       "path": "storejs/storejs.d.ts",
@@ -7675,6 +11425,27 @@
           {
             "name": "Vincent Bortone",
             "url": "https://github.com/vbortone"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "stream-to-array",
+      "name": "stream-to-array",
+      "path": "stream-to-array/stream-to-array.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "stream-to-array",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/stream-utils/stream-to-array",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -7766,12 +11537,17 @@
       "path": "svgjs.draggable/svgjs.draggable.d.ts",
       "info": {
         "references": [],
-        "name": "",
+        "name": "svgjs.draggable",
         "version": "",
         "description": "",
-        "projectUrl": "",
-        "authors": [],
-        "reposUrl": ""
+        "projectUrl": "http://www.svgjs.com",
+        "authors": [
+          {
+            "name": "Luigi Trabacchin",
+            "url": "https://github.com/LiFeleSs"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
       }
     },
     {
@@ -7788,6 +11564,25 @@
           {
             "name": "Sean Hess",
             "url": "https://seanhess.github.io"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "swig",
+      "name": "swig",
+      "path": "swig/swig.d.ts",
+      "info": {
+        "references": [],
+        "name": "swig",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://github.com/paularmstrong/swig",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -7832,6 +11627,46 @@
       }
     },
     {
+      "project": "swiz",
+      "name": "swiz",
+      "path": "swiz/swiz.d.ts",
+      "info": {
+        "references": [],
+        "name": "swiz",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/racker/node-swiz",
+        "authors": [
+          {
+            "name": "Jeff Goddard",
+            "url": "https://github.com/jedigo"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "tape",
+      "name": "tape",
+      "path": "tape/tape.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "tape v2.12.3",
+        "version": "2.12.3",
+        "description": "",
+        "projectUrl": "https://github.com/substack/tape",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "teechart",
       "name": "teechart",
       "path": "teechart/teechart.d.ts",
@@ -7851,17 +11686,45 @@
       }
     },
     {
-      "project": "test-module",
-      "name": "test-module",
-      "path": "test-module/test-module.d.ts",
+      "project": "text-buffer",
+      "name": "text-buffer",
+      "path": "text-buffer/text-buffer.d.ts",
       "info": {
-        "references": [],
-        "name": "",
+        "references": [
+          "../atom/atom.d.ts",
+          "../emissary/emissary.d.ts",
+          "../q/Q.d.ts"
+        ],
+        "name": "text-buffer",
         "version": "",
         "description": "",
-        "projectUrl": "",
-        "authors": [],
-        "reposUrl": ""
+        "projectUrl": "https://github.com/atom/text-buffer",
+        "authors": [
+          {
+            "name": "vvakame",
+            "url": "https://github.com/vvakame"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "text-encoding",
+      "name": "text-encoding",
+      "path": "text-encoding/text-encoding.d.ts",
+      "info": {
+        "references": [],
+        "name": "text-encoding",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/inexorabletash/text-encoding",
+        "authors": [
+          {
+            "name": "MIZUNE Pine",
+            "url": "https://github.com/pine613"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
       }
     },
     {
@@ -7870,7 +11733,7 @@
       "path": "threejs/three.d.ts",
       "info": {
         "references": [],
-        "name": "three.js -- r66",
+        "name": "three.js r68",
         "version": "",
         "description": "",
         "projectUrl": "http://mrdoob.github.com/three.js",
@@ -7903,6 +11766,104 @@
           {
             "name": "Andrew Gaspar",
             "url": "https://github.com/AndrewGaspar"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "through2",
+      "name": "through2",
+      "path": "through2/through2.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "through2 v 0.4.2",
+        "version": "0.4.2",
+        "description": "",
+        "projectUrl": "https://github.com/rvagg/through2",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "timelinejs",
+      "name": "timelinejs",
+      "path": "timelinejs/timelinejs.d.ts",
+      "info": {
+        "references": [],
+        "name": "timelinejs",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/NUKnightLab/TimelineJS",
+        "authors": [
+          {
+            "name": "Roland Zwaga",
+            "url": "https://github.com/rolandzwaga"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "timezone-js",
+      "name": "timezone-js",
+      "path": "timezone-js/timezone-js.d.ts",
+      "info": {
+        "references": [],
+        "name": "timezone-js",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/mde/timezone-js",
+        "authors": [
+          {
+            "name": "bonnici",
+            "url": "https://github.com/bonnici"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "timezonecomplete",
+      "name": "timezonecomplete",
+      "path": "timezonecomplete/timezonecomplete-1.2.0.d.ts",
+      "semver": "1.2.0",
+      "info": {
+        "references": [],
+        "name": "timezonecomplete",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/SpiritIT/timezonecomplete",
+        "authors": [
+          {
+            "name": "Rogier Schouten",
+            "url": "https://github.com/rogierschouten"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "timezonecomplete",
+      "name": "timezonecomplete",
+      "path": "timezonecomplete/timezonecomplete.d.ts",
+      "info": {
+        "references": [],
+        "name": "timezonecomplete 1.3.0",
+        "version": "1.3.0",
+        "description": "",
+        "projectUrl": "https://github.com/SpiritIT/timezonecomplete",
+        "authors": [
+          {
+            "name": "Rogier Schouten",
+            "url": "https://github.com/rogierschouten"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -7964,6 +11925,27 @@
           {
             "name": "Blake Niemyjski",
             "url": "https://github.com/niemyjski"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "tspromise",
+      "name": "tspromise",
+      "path": "tspromise/tspromise.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "tspromise 0.0.4",
+        "version": "0.0.4",
+        "description": "",
+        "projectUrl": "https://github.com/soywiz/tspromise",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -8035,6 +12017,44 @@
       }
     },
     {
+      "project": "twig",
+      "name": "twig",
+      "path": "twig/twig.d.ts",
+      "info": {
+        "references": [],
+        "name": "twig",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/justjohn/twig.js",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "type-detect",
+      "name": "type-detect",
+      "path": "type-detect/type-detect.d.ts",
+      "info": {
+        "references": [],
+        "name": "type-detect v0.1.2",
+        "version": "0.1.2",
+        "description": "",
+        "projectUrl": "https://github.com/chaijs/type-detect",
+        "authors": [
+          {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "typeahead",
       "name": "typeahead",
       "path": "typeahead/typeahead.d.ts",
@@ -8050,6 +12070,25 @@
           {
             "name": "Ivaylo Gochkov",
             "url": "https://github.com/igochkov"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "typescript-services",
+      "name": "typescriptServices",
+      "path": "typescript-services/typescriptServices.d.ts",
+      "info": {
+        "references": [],
+        "name": "TypeScript-Services",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://www.npmjs.org/package/typescript-services",
+        "authors": [
+          {
+            "name": "Basarat Ali Syed",
+            "url": "http://github.com/basarat"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -8102,8 +12141,8 @@
       "path": "underscore/underscore.d.ts",
       "info": {
         "references": [],
-        "name": "Underscore 1.5.2",
-        "version": "1.5.2",
+        "name": "Underscore 1.6.0",
+        "version": "1.6.0",
         "description": "",
         "projectUrl": "http://underscorejs.org",
         "authors": [
@@ -8297,6 +12336,27 @@
       }
     },
     {
+      "project": "velocity-animate",
+      "name": "velocity-animate",
+      "path": "velocity-animate/velocity-animate.d.ts",
+      "info": {
+        "references": [
+          "../jquery/jquery.d.ts"
+        ],
+        "name": "Velocity 0.0.22",
+        "version": "0.0.22",
+        "description": "",
+        "projectUrl": "http://velocityjs.org",
+        "authors": [
+          {
+            "name": "Greg Smith",
+            "url": "https://github.com/smrq"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "videojs",
       "name": "videojs",
       "path": "videojs/videojs.d.ts",
@@ -8327,7 +12387,8 @@
         "projectUrl": "https://github.com/zynga/viewporter",
         "authors": [
           {
-            "name": "Boris Yankov https"
+            "name": "Boris Yankov",
+            "url": "https://github.com/borisyankov"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -8347,6 +12408,68 @@
           {
             "name": "Daz Wilkin",
             "url": "https://github.com/DazWilkin"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "vinyl-fs",
+      "name": "vinyl-fs",
+      "path": "vinyl-fs/vinyl-fs.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts",
+          "../vinyl/vinyl.d.ts"
+        ],
+        "name": "vinyl-fs",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/wearefractal/vinyl-fs",
+        "authors": [
+          {
+            "name": "vvakame",
+            "url": "https://github.com/vvakame"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "vinyl",
+      "name": "vinyl",
+      "path": "vinyl/vinyl.d.ts",
+      "info": {
+        "references": [
+          "../node/node.d.ts"
+        ],
+        "name": "vinyl",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/wearefractal/vinyl",
+        "authors": [
+          {
+            "name": "vvakame",
+            "url": "https://github.com/vvakame"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "watch",
+      "name": "watch",
+      "path": "watch/watch.d.ts",
+      "info": {
+        "references": [],
+        "name": "watch",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/mikeal/watch",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -8399,7 +12522,7 @@
         "name": "Web Audio API",
         "version": "",
         "description": "",
-        "projectUrl": "http://www.w3.org/TR/2012/WD-webaudio-20121213",
+        "projectUrl": "http://www.w3.org/TR/webaudio",
         "authors": [
           {
             "name": "Baruch Berger",
@@ -8408,6 +12531,25 @@
           {
             "name": "Kon",
             "url": "http://phyzkit.net"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "webcrypto",
+      "name": "WebCrypto",
+      "path": "webcrypto/WebCrypto.d.ts",
+      "info": {
+        "references": [],
+        "name": "WebCrypto",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://www.w3.org/TR/WebCryptoAPI",
+        "authors": [
+          {
+            "name": "Lucas Dixon",
+            "url": "https://github.com/iislucas"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -8494,6 +12636,78 @@
     {
       "project": "winjs",
       "name": "winjs",
+      "path": "winjs/winjs-1.0.d.ts",
+      "semver": "1.0.0",
+      "info": {
+        "references": [],
+        "name": "WinJS",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://msdn.microsoft.com/en-us/library/windows/apps/br229773.aspx",
+        "authors": [
+          {
+            "name": "TypeScript samples",
+            "url": "https://www.typescriptlang.org"
+          },
+          {
+            "name": "Adam Hewitt",
+            "url": "https://github.com/adamhewitt627"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "winjs",
+      "name": "winjs",
+      "path": "winjs/winjs-2.0.d.ts",
+      "semver": "2.0.0",
+      "info": {
+        "references": [],
+        "name": "WinJS",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://msdn.microsoft.com/en-us/library/windows/apps/br229773.aspx",
+        "authors": [
+          {
+            "name": "TypeScript samples",
+            "url": "https://www.typescriptlang.org"
+          },
+          {
+            "name": "Adam Hewitt",
+            "url": "https://github.com/adamhewitt627"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "winjs",
+      "name": "winjs",
+      "path": "winjs/winjs-2.1.d.ts",
+      "semver": "2.1.0",
+      "info": {
+        "references": [],
+        "name": "WinJS",
+        "version": "",
+        "description": "",
+        "projectUrl": "http://msdn.microsoft.com/en-us/library/windows/apps/br229773.aspx",
+        "authors": [
+          {
+            "name": "TypeScript samples",
+            "url": "https://www.typescriptlang.org"
+          },
+          {
+            "name": "Adam Hewitt",
+            "url": "https://github.com/adamhewitt627"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "winjs",
+      "name": "winjs",
       "path": "winjs/winjs.d.ts",
       "info": {
         "references": [],
@@ -8534,6 +12748,44 @@
       }
     },
     {
+      "project": "winston",
+      "name": "winston",
+      "path": "winston/winston.d.ts",
+      "info": {
+        "references": [],
+        "name": "winston",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/flatiron/winston",
+        "authors": [
+          {
+            "name": "bonnici",
+            "url": "https://github.com/bonnici"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "wrench",
+      "name": "wrench",
+      "path": "wrench/wrench.d.ts",
+      "info": {
+        "references": [],
+        "name": "wrench",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/ryanmcgrath/wrench-js",
+        "authors": [
+          {
+            "name": "Carlos Ballesteros Velasco",
+            "url": "https://github.com/soywiz"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
       "project": "ws",
       "name": "ws",
       "path": "ws/ws.d.ts",
@@ -8549,6 +12801,44 @@
           {
             "name": "Paul Loyd",
             "url": "https://github.com/loyd"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "x2js",
+      "name": "xml2json",
+      "path": "x2js/xml2json.d.ts",
+      "info": {
+        "references": [],
+        "name": "x2js",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://code.google.com/p/x2js",
+        "authors": [
+          {
+            "name": "Horiuchi_H",
+            "url": "https://github.com/horiuchi"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
+      }
+    },
+    {
+      "project": "xml2js",
+      "name": "xml2js",
+      "path": "xml2js/xml2js.d.ts",
+      "info": {
+        "references": [],
+        "name": "node-xml2js",
+        "version": "",
+        "description": "",
+        "projectUrl": "https://github.com/Leonidas-from-XIV/node-xml2js",
+        "authors": [
+          {
+            "name": "Michel Salib",
+            "url": "https://github.com/michelsalib"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
@@ -8625,8 +12915,13 @@
         "version": "3.14.0",
         "description": "",
         "projectUrl": "https://github.com/yui/yui3/blob/release-3.14.0/src/test/js",
-        "authors": [],
-        "reposUrl": ""
+        "authors": [
+          {
+            "name": "Gia Bảo @ Sân Đình",
+            "url": "https://github.com/giabao"
+          }
+        ],
+        "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
       }
     },
     {
@@ -8687,10 +12982,6 @@
           {
             "name": "Blake Niemyjski",
             "url": "https://github.com/niemyjski"
-          },
-          {
-            "name": "György Balássy",
-            "url": "https://github.com/balassy"
           }
         ],
         "reposUrl": "https://github.com/borisyankov/DefinitelyTyped"
